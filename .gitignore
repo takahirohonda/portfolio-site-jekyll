@@ -1,0 +1,9 @@
+# jekyll-cache
+.jekyll-cache
+.jekyll-metadata
+_site
+
+# bundle build from code and react
+assets/css/*.min.*
+assets/js/*.min.*
+assets/js/*.html
