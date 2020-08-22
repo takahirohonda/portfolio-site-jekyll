@@ -92,7 +92,7 @@ gulp.task('deploy-js', () => {
 
 // (4-2) Minifying sakura js
 gulp.task('minifySakuraJs', function() {
-  return gulp.src('vendor/jquery-sakura.html')
+  return gulp.src('vendor/jquery-sakura.js')
     .pipe(useref({}, lazypipe().pipe(sourcemaps.init, {loadMaps: true})))
     .pipe(sourcemaps.write('.'))
     .pipe(gulpIf('*.js', babel({
@@ -117,7 +117,8 @@ gulp.task('minifySakuraJs', function() {
       gutil.log(gutil.colors.red(err.message));
       gutil.log(err);
     })
-    .pipe(gulp.dest('../assets/js/sakura.min.js'));
+    .pipe(concat('sakura.min.js'))
+    .pipe(gulp.dest('../assets/js'));
 });
 
 // Moving minified vendor js
