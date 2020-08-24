@@ -336,8 +336,12 @@
 }
 
 .sakura {
-    background: -webkit-linear-gradient(120deg, rgba(255, 183, 197, 0.9), rgba(255, 197, 208, 0.9));
+    /* background: -webkit-linear-gradient(120deg, rgba(255, 183, 197, 0.9), rgba(255, 197, 208, 0.9));
     background: linear-gradient(120deg, rgba(255, 183, 197, 0.9), rgba(255, 197, 208, 0.9));
+     */
+    
+    background: -webkit-linear-gradient(120deg, rgba(255, 183, 197, 0.9), rgba(255, 197, 208, 0.9));
+    background: linear-gradient(120deg, rgba(76, 117, 253, 0.9), rgba(255, 197, 208, 0.9));
     pointer-events: none;
     position: absolute
 }

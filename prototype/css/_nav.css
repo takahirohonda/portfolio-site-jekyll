@@ -1,0 +1,37 @@
+
+.nav-container {
+  background-color: black;
+  height: 87px;
+}
+
+.icon-container {
+  margin: 0px 15px 0px 15px;
+}
+
+.icon {
+  background-image: url('../../assets/img/svg/eye-logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60px;
+  width: 120px;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: white;
+}
+
+.nav-container ul {
+  margin: 0px 20px;
+ }
+
+.nav-container ul li {
+ margin: 5px 25px;
+}
+
+.nav-container ul li a {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px; 
+  color: white;
+}

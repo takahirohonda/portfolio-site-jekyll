@@ -10,19 +10,160 @@
   <link rel="stylesheet" href="./css/vendor/bootstrap.min.css" />
   <link rel="stylesheet" href="./css/vendor/sakura.min.css" />
   <link rel="stylesheet" href="./css/vendor/bootstrap.min.css" />
-  <link rel="stylesheet" href="./css/main.css" />
+  <!-- <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/_nav.css" />
+  <link rel="stylesheet" href="./css/_hero.css" /> -->
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* font-family: 'Fira Sans', sans-serif; */
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../assets/font/FiraSans-Regular.ttf') format('truetype');
+}
+
+/* font-family: 'Indie Flower', cursive; */
+@font-face {
+  font-family: 'Indie Flower';
+  src: url('../assets/font/IndieFlower-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../assets/font/Pacifico-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.sakura-target {
+  position: absolute;
+  margin-top: 70px;
+  height: 550px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* nav */
+
+.nav-container {
+  background-color: black;
+  height: 87px;
+}
+
+.icon-container {
+  margin: 0px 15px 0px 15px;
+}
+
+.icon {
+  background-image: url('../../assets/img/svg/eye-logo.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60px;
+  width: 120px;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  color: white;
+}
+
+.nav-container ul {
+  margin: 0px 20px;
+ }
+
+.nav-container ul li {
+ margin: 5px 25px;
+}
+
+.nav-container ul li a {
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px; 
+  color: white;
+}
+/* hero */
+.hero-container {
+  width: 100%;
+  background-color: black;
+  height: 550px;
+}
+
+.hero-container-bottom {
+  background: url('../../assets/img/svg/hero-bottom-wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  margin-top: -10px;
+  padding: 0;
+}
+
+.hero-propaganda {
+  font-size: 60px;
+  color: white;
+}
+.finger-print-img {
+  width: 240px;
+  fill: blue;
+}
+  </style>
 </head>
 <body>
-
-  <nav class="nav-container">
-
+  <div class="sakura-target"></div>
+  <nav class="nav-container d-flex justify-content-between">
+    <div class="icon-container d-flex justify-content-start align-items-center">
+      <a class="icon" href="#">
+      </a>
+      <a class="title" href="#">
+        Taka Honda
+      </a>
+    </div>
+    <div class="nav-menu-container d-flex align-items-center justify-content-between">
+      <ul class="d-flex flex-row">
+        <li><a>Home</a></li>
+        <li><a>Creative Writing</a></li>
+        <li><a>Music</a></li>
+        <li><a>About Me</a></li>        
+      </ul>
+    </div>
 
   </nav>
 
   <main>
+    <div class="hero-container">
 
+      <div class="container h-100">
+        <div class="row h-100 justify-content-between">
+          <div class="md-col-6">
+            <div class="hero-banner-container d-flex h-100 align-items-start flex-column justify-content-center">
+              <h1 class="hero-propaganda">Imperfection is</h1>
+              <h1 class="hero-propaganda">the fingerprint of your soul...</h1>
+            </div>
+          </div>
+          <div class="md-col-6 d-flex align-items-center">
+            <img class="finger-print-img" src="../../assets/img/svg/finger-print.svg" alt="finger print"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="hero-container-bottom"></div>
+
+    
   </main>
+  <script src="../assets/js/jquery.slim.min.js"></script>
+  <script src="../assets/js/popper.min.js" ></script>
+  <script src="../assets/js/bootstrap.min.js" ></script>
+  <script src="../assets/js/sakura.min.js"></script>
+  <script>
+    $(".sakura-target").sakura();
+  </script>
   
 </body>
 </html>

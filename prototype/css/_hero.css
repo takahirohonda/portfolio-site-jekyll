@@ -1,0 +1,23 @@
+.hero-container {
+  width: 100%;
+  background-color: black;
+  height: 550px;
+}
+
+.hero-container-bottom {
+  background: url('../../assets/img/svg/hero-bottom-wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  margin-top: -10px;
+  padding: 0;
+}
+
+.hero-propaganda {
+  font-size: 60px;
+  color: white;
+}
+.finger-print-img {
+  width: 240px;
+  fill: blue;
+}
