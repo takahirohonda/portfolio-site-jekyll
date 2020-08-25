@@ -12,6 +12,14 @@
 
 .header-text {
   margin: 10px 30px;
+
+}
+
+@media only screen and (max-width: 370px) {
+  .header-text {
+    font-size: 18px;
+
+  }
 }
 
 .header-pre-text-space-1{
