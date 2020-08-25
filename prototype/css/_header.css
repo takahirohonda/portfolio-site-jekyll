@@ -1,0 +1,27 @@
+.header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, #000000 0%, #2D3436 100%);
+  color:white;
+}
+
+.inner-header {
+  height:65vh;
+  width:100%;
+}
+
+.header-text {
+  margin: 10px 30px;
+}
+
+.header-pre-text-space-1{
+  width: 0px;
+}
+
+.header-pre-text-space-2 {
+  width: 80px;
+}
+
+.header-pre-text-space-3 {
+  width: 40px;
+}

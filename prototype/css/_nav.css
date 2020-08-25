@@ -1,37 +1,69 @@
-
-.nav-container {
-  background-color: black;
-  height: 87px;
-}
-
-.icon-container {
-  margin: 0px 15px 0px 15px;
-}
-
-.icon {
-  background-image: url('../../assets/img/svg/eye-logo.svg');
-  background-repeat: no-repeat;
-  background-position: center;
+.top-header {
+  background-color: transparent;
   height: 60px;
-  width: 120px;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
-.title {
-  font-family: 'Pacifico', cursive;
-  font-size: 36px;
+.top-header.active {
+  background-color: rgba(252, 252, 252, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  /* animation: nav-drop .4s cubic-bezier(.28,.11,.32,1); */
+  transition: background-color .3s cubic-bezier(.28,.11,.32,1);
+  transition-property: background-color,backdrop-filter;
+}
+
+.top-header.active p,
+.top-header.active li {
+  color: black;
+}
+
+.top-header.active .header-logo {
+  fill: black;
+}
+
+@keyframes nav-drop {
+  0% {
+    transform-origin: top;
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1)
+  }
+}
+
+.logo-container {
+  margin-left: 20px;
+}
+
+.header-logo {
+  width: 50px;
+  fill: white;
+}
+
+.logo {
+  font-family: 'Indie Flower', cursive;
   color: white;
+  font-size: 26px;
+  margin: 0px 5px;
+
 }
 
 .nav-container ul {
-  margin: 0px 20px;
- }
-
-.nav-container ul li {
- margin: 5px 25px;
+  list-style: none;
+  margin: 0px;
 }
 
-.nav-container ul li a {
-  font-family: 'Indie Flower', cursive;
-  font-size: 30px; 
+.nav-container ul li {
+  margin: 0px 25px;
+ }
+
+.nav-container li {
   color: white;
+  font-size: 25px;
+  font-family: 'Indie Flower', cursive;
+  margin: 5px 25px;
 }
