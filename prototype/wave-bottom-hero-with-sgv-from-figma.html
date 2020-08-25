@@ -23,18 +23,18 @@
 /* font-family: 'Fira Sans', sans-serif; */
 @font-face {
   font-family: 'Fira Sans';
-  src: url('../assets/font/FiraSans-Regular.ttf') format('truetype');
+  src: url('./font/FiraSans-Regular.ttf') format('truetype');
 }
 
 /* font-family: 'Indie Flower', cursive; */
 @font-face {
   font-family: 'Indie Flower';
-  src: url('../assets/font/IndieFlower-Regular.ttf') format('truetype');
+  src: url('./font/IndieFlower-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Pacifico';
-  src: url('../assets/font/Pacifico-Regular.ttf') format('truetype');
+  src: url('./font/Pacifico-Regular.ttf') format('truetype');
 }
 
 body {
@@ -62,7 +62,7 @@ body {
 }
 
 .icon {
-  background-image: url('../../assets/img/svg/eye-logo.svg');
+  background-image: url('./img/svg/eye-logo.svg');
   background-repeat: no-repeat;
   background-position: center;
   height: 60px;
@@ -96,11 +96,14 @@ body {
 }
 
 .hero-container-bottom {
-  background: url('../../assets/img/svg/hero-bottom-wave.svg');
+  background: url('./img/svg/3000-wave-top.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 100px;
-  margin-top: -10px;
+  margin-top: -20px;
+
+  width: 100%;
   padding: 0;
 }
 
@@ -147,7 +150,7 @@ body {
             </div>
           </div>
           <div class="md-col-6 d-flex align-items-center">
-            <img class="finger-print-img" src="../../assets/img/svg/finger-print.svg" alt="finger print"></div>
+            <img class="finger-print-img" src="./img/svg/finger-print.svg" alt="finger print"></div>
           </div>
         </div>
       </div>
