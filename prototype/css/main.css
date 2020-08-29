@@ -4,7 +4,12 @@
   box-sizing: border-box;
 }
 
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+/* @import url(//fonts.googleapis.com/css?family=Lato:300:400); */
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../font/Lato-Regular.ttf') format('truetype');
+}
 
 /* font-family: 'Fira Sans', sans-serif; */
 @font-face {
@@ -20,7 +25,7 @@
 
 @font-face {
   font-family: 'Pacifico';
-  src: url('../font/font/Pacifico-Regular.ttf') format('truetype');
+  src: url('../font/Pacifico-Regular.ttf') format('truetype');
 }
 
 body {
