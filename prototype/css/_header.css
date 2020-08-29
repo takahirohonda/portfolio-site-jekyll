@@ -12,11 +12,12 @@
 
 .header-text {
   margin: 10px 30px;
-
+  font-family: 'Fira Sans', sans-serif;
 }
 
+
 @media only screen and (max-width: 370px) {
-  .header-text {
+  .header-text.header-text-1 {
     font-size: 18px;
 
   }
