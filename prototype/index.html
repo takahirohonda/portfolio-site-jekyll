@@ -30,10 +30,19 @@
         <p class="logo">T H</p>
       </div>
       <nav class="nav-container d-flex align-items-center">
-        <ul class="d-flex flex">
-          <li>Home</li>
-          <li>Creative Writing</li>
-          <li>Music</li>
+        <ul class="d-flex flex menu">
+          <li class="menu-option__1"><a class="menu-option-link" href="#">Home</a></li>
+          <li class="menu-option__2"><a class="menu-option-link" href="#">Creative Writing</a>
+            <div class="sub-menu-wrapper"></div>
+              <ul class="sub-menu">
+                <li><a class="menu-option-link" href="#">Poetry</a></li>
+                <li><a class="menu-option-link" href="#">Short Story</a></li>
+              </ul>
+          </li>
+          
+          <li class="menu-option__1"><a class="menu-option-link" href="#">Music</a></li>
+          <li class="menu-option__1"><a class="menu-option-link" href="#">Essay</a></li>
+          <li class="menu-option__1"><a class="menu-option-link" href="#">Tech</a></li>
         </ul>
       </nav>
       <div class="nav-burger-container">
@@ -119,7 +128,7 @@
   <script src="./js/custom.js"></script>
   <script src="./js/custom-entry.js"></script>
   <script>
-    $(".sakura-target").sakura();
+    // $(".sakura-target").sakura();
   </script>
 </body>
 

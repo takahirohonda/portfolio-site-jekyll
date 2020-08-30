@@ -98,6 +98,47 @@
   left: -1px;
 }
 
+/* mobile nav */
+
+.menu-option-link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.menu-option-link:hover,
+.menu-option-link:focus,
+.menu-option-link:active {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-option-link:hover:after,
+.menu-option-link:focus:after,
+.menu-option-link:active:after {
+  content: '';
+  position: absolute;
+  top: 33px;
+  left: 0px;
+  border-top: 1px solid white;
+  animation: growRight 0.15s ease-in;
+  width: 100%;
+}
+
+@keyframes growRight {
+  from {
+    transform: scale(0);
+    transform-origin: center;
+  }
+  to {
+    transform: scale(1);
+    transform-origin: center;
+  }
+}
+
+
+
+/* desktop nav */
 @media only screen and (min-width: 992px) {
 
   .nav-container {
@@ -108,20 +149,73 @@
     display: none;
   }
 
-  .nav-container ul {
+  .menu {
     list-style: none;
     margin: 0px;
   }
+
   
-  .nav-container ul li {
+  .menu ul li {
     margin: 0px 25px;
+    cursor: pointer;
+    position: relative;
    }
-  
-  .nav-container li {
+
+  .menu li {
     color: white;
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Indie Flower', cursive;
     margin: 5px 25px;
+    cursor: pointer;
+  }
+
+  .sub-menu {
+    display: none;
+    list-style: none;
+  }
+
+  .sub-menu li {
+    font-size: 22px;
+    padding: 5px 0px;
+  }
+
+  .menu-option__2 {
+    position: relative;
+  }
+  .sub-menu-wrapper {
+    display: none;
+  }
+
+  .menu-option__2:hover > .sub-menu-wrapper {
+    display: block;
+    position: absolute;
+    top: 0px;
+    height: 150px;
+    width: 220px;
+  }
+
+  .menu-option__2:hover .sub-menu,
+  .sub-menu-wrapper:hover .sub-menu {
+    display: block;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    background: linear-gradient(60deg, #000000 0%, #181b1b 100%);
+    border-radius: 10px;
+    width: 213px;
+    padding: 10px;
+  }
+  
+  .menu-option__2:hover .sub-menu:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #000000;
+    top: -6px;
+    left: 16px;
+    transform: rotate(45deg);
   }
 
 }
