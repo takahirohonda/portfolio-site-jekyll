@@ -15,9 +15,9 @@
 
 <body>
   <div class="sakura-target"></div>
-
+  <div class="bg-dark"></div>
   <div class="top-header d-flex align-items-center justify-content-between">
-    <div class="container d-flex align-items-center justify-content-between">
+    <div class="container header-container d-flex align-items-center justify-content-between">
       <div class="logo-container d-flex align-items-center">
         <span data-z data-z-depth=".5em" data-z-layers="3">
           <svg class="header-logo" viewBox="0 0 113 60" xmlns="http://www.w3.org/2000/svg">
@@ -32,7 +32,13 @@
       <nav class="nav-container d-flex align-items-center">
         <ul class="d-flex flex menu">
           <li class="menu-option__1"><a class="menu-option-link" href="#">Home</a></li>
-          <li class="menu-option__2"><a class="menu-option-link" href="#">Creative Writing</a>
+          <li class="menu-option__2">
+            <div class="menu-option__2-inner-container">
+              <a class="menu-option-link" href="#">Creative Writing</a>
+              <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                <path d="M5.72508 6.36623L9.77631 1.55736C10.2919 0.947042 9.86049 0 9.05024 0H0.94779C0.148067 0 -0.293885 0.936519 0.221726 1.55736L4.27295 6.36623C4.65177 6.80818 5.34626 6.80818 5.72508 6.36623Z" />
+              </svg>  
+            </div>
             <div class="sub-menu-wrapper"></div>
               <ul class="sub-menu">
                 <li><a class="menu-option-link" href="#">Poetry</a></li>
@@ -128,7 +134,7 @@
   <script src="./js/custom.js"></script>
   <script src="./js/custom-entry.js"></script>
   <script>
-    // $(".sakura-target").sakura();
+    $(".sakura-target").sakura();
   </script>
 </body>
 
