@@ -44,6 +44,7 @@
 
   // Initialising navburger change
   const initNav = thNamespacePublic.initNavBurgerClickEventListner = () => {
+    
     const navBurgerContainer = document.body.querySelector('.nav-burger-container');
     const bgDark = document.body.querySelector('.bg-dark');
     const navContainer = document.body.querySelector('.nav-container');
@@ -63,15 +64,17 @@
     // open and close sub menu for mobile
 
     const mnuOption2InnerContainer = document.body.querySelector('.menu-option__2-inner-container');
-    mnuOption2InnerContainer.addEventListener('click', () => {
+    mnuOption2InnerContainer.addEventListener('mouseover', () => {
+      if (window.innerWidth < 992) {
       toggleActive(document.body.querySelector('.sub-menu'));
       toggleActive(document.body.querySelector('.down-arrow'));
+      }
 
     });
 
     // this is for screen size change
     window.addEventListener('resize', () => {
-      if (window.innerWidth > 992) {
+      if (window.innerWidth  > 992) {
         console.log('resize event');
         document.body.querySelector('.bg-dark').classList.remove('active');
         document.body.querySelector('.nav-container').classList.remove('active');

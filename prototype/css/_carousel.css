@@ -1,0 +1,33 @@
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-inner {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.carousel-item {
+  height: auto;
+}
+.carousel-content-item {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.carousel-content-text {
+  color:white;
+}
+
+/* override z-index */
+
+.carousel-indicators {
+  z-index: 0;
+}
