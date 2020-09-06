@@ -1,0 +1,36 @@
+.header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, #000000 0%, #2D3436 100%);
+  color:white;
+}
+
+.inner-header {
+  height:65vh;
+  width:100%;
+}
+
+.header-text {
+  margin: 10px 30px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+@media only screen and (max-width: 370px) {
+  .header-text.header-text-1 {
+    font-size: 18px;
+
+  }
+}
+
+.header-pre-text-space-1{
+  width: 0px;
+}
+
+.header-pre-text-space-2 {
+  width: 80px;
+}
+
+.header-pre-text-space-3 {
+  width: 40px;
+}

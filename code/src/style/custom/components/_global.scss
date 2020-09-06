@@ -1,15 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Pacifico&&family=Fredoka+One&family=Lato&display=swap');
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
+/* @import url(//fonts.googleapis.com/css?family=Lato:300:400); */
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../font/Lato-Regular.ttf') format('truetype');
 }
 
-a.no-decoration {
-  text-decoration: none;
+/* font-family: 'Fira Sans', sans-serif; */
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../font/FiraSans-Regular.ttf') format('truetype');
 }
+
+/* font-family: 'Indie Flower', cursive; */
+@font-face {
+  font-family: 'Indie Flower';
+  src: url('../font/IndieFlower-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../font/Pacifico-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:14px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  cursor: pointer;
+  }
+
+
+a:hover, a:focus, a:active {
+  color: white;
+}
+
+.content {
+  /* background: linear-gradient(180deg, #8BC6EC 0%, #9599E2 100%); */
+  background: linear-gradient(180deg, #2B86C5 0%, #FF6A88 100%)
+}
+
+/* break point reference for bootstrap */
+
+/* This is custom extreme small screen */
+@media only screen and (min-width: 370px) { }
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { }
+
+/* override container width */ 
+
+@media only screen and (max-width: 992px) { 
+
+  .header-container {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+ }

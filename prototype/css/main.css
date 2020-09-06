@@ -30,10 +30,8 @@
 
 body {
   font-family: 'Fira Sans', sans-serif;
+  color: white;
 }
-
-
-
 
 h1 {
   font-family: 'Fira Sans', sans-serif;
@@ -41,9 +39,7 @@ h1 {
   letter-spacing: 2px;
   font-size:48px;
 }
-h1, h2, h3, h4 {
-  color: white;
-}
+
 p {
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
@@ -65,7 +61,6 @@ a {
 
 a:hover, a:focus, a:active {
   color: white;
-
 }
 
 .sakura-target {
