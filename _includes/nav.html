@@ -1,4 +1,9 @@
+
+{% if page.layout == "home" %}
 <div class="top-header d-flex align-items-center justify-content-between">
+{% else %}
+<div class="top-header nav-pages d-flex align-items-center justify-content-between">
+{% endif %}
   <div class="container header-container d-flex align-items-center justify-content-between">
     <div class="logo-container d-flex align-items-center">
       <span data-z data-z-depth=".5em" data-z-layers="3">
@@ -13,24 +18,31 @@
     </div>
     <nav class="nav-container d-flex align-items-center">
       <ul class="d-flex flex menu">
-        <li class="menu-option__1"><a class="menu-option-link" href="index.html">Home</a></li>
-        <li class="menu-option__2">
-          <div class="menu-option__2-inner-container">
-            <a class="menu-option-link" href="creative-writing.html">Creative Writing</a>
-            <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
-              <path d="M5.72508 6.36623L9.77631 1.55736C10.2919 0.947042 9.86049 0 9.05024 0H0.94779C0.148067 0 -0.293885 0.936519 0.221726 1.55736L4.27295 6.36623C4.65177 6.80818 5.34626 6.80818 5.72508 6.36623Z" />
-            </svg>  
-          </div>
-          <div class="sub-menu-wrapper"></div>
-            <ul class="sub-menu">
-              <li><a class="menu-option-link" href="#">Poetry</a></li>
-              <li><a class="menu-option-link" href="#">Short Story</a></li>
-            </ul>
-        </li>
-        
-        <li class="menu-option__1"><a class="menu-option-link" href="#">Music</a></li>
-        <li class="menu-option__1"><a class="menu-option-link" href="#">Essay</a></li>
-        <li class="menu-option__1"><a class="menu-option-link" href="#">Tech</a></li>
+
+        {% for item in site.data.navigation.navMenu %}
+          {% if item.submenu != null %}
+          <li class="menu-option__2">
+            <div class="menu-option__2-inner-container">
+              <a class="menu-option-link" href="{{item.url}}">{{item.menu}}</a>
+              <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                <path d="M5.72508 6.36623L9.77631 1.55736C10.2919 0.947042 9.86049 0 9.05024 0H0.94779C0.148067 0 -0.293885 0.936519 0.221726 1.55736L4.27295 6.36623C4.65177 6.80818 5.34626 6.80818 5.72508 6.36623Z" />
+              </svg>  
+            </div>
+            <div class="sub-menu-wrapper"></div>
+              <ul class="sub-menu">
+                {% for submenuItem in item.submenu %}
+                <li><a class="menu-option-link" href="{{submenuItem.url}}">{{submenuItem.submenuItem}}</a></li>
+                {% endfor %}
+              </ul>
+          </li>
+
+          {% else %}
+          <li class="menu-option__1">
+            <a class="menu-option-link" href="{{item.url}}">{{item.menu}}</a>
+          </li>
+          {% endif %}
+
+        {% endfor %}
       </ul>
     </nav>
     <div class="nav-burger-container">
@@ -38,3 +50,8 @@
     </div>
   </div>
 </div>
+{% if page.layout != "home" %}
+<div class="nav-dark-bg">
+        
+</div>
+{% endif %}

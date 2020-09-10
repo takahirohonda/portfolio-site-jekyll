@@ -1,0 +1,58 @@
+.path-container {
+
+  /* background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%); */
+  background-image: linear-gradient( -135deg, #FFF886 10%, #F072B6 100%);
+  
+  }
+  
+  .page-path {
+    font-size: 14px;
+    padding: 20px 0px;
+    margin: 0px;
+  }
+  
+  .page-path a {
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  .page-content-container {
+    height: 100vh;
+    background: #2D3436;
+  }
+  
+  .nav-dark-bg {
+    background: #2D3436;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .page-list-title {
+    font-size: 20px;
+  }
+  
+  .page-item-title {
+    font-size: 18px;
+  }
+  
+  .page-list {
+    margin: 20px 0px;
+  }
+  
+  .page-item-list {
+    list-style: square;
+    list-style-position: inside;
+  }
+  
+  .page-item-list > li {
+    margin: 20px 15px;
+  }
+  
+  .content-container {
+   margin-top: 40px;
+  }
+  
+  .work-title {
+    font-size: 18px;
+  }

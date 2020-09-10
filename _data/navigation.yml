@@ -1,0 +1,17 @@
+navMenu:
+  - menu: Home
+    url: index.html
+  - menu: Creative Writing
+    url: creative-writing.html
+    submenu: 
+      - submenuItem: Poetry
+        url: poetry.html
+      - submenuItem: Short Story
+        url: short-story.html
+  - menu: Music
+    url: music.html
+  - menu: Essay
+    url: essay.html
+  - menu: Tech
+    url: tech.html
+  
