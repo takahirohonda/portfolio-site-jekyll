@@ -1,7 +1,7 @@
 {% if page.jsBundles %}
   {% for jsBundle in page.jsBundles %}
-    <script src="{{site.data.baseUrl.baseUrl}}assets/js/{{jsBundle}}"></script>
+    <script src="{{site.data.baseUrl.baseUrl}}/assets/js/{{jsBundle}}"></script>
   {% endfor %}
 {% else %}
-  <script src="{{site.data.baseUrl.baseUrl}}assets/js/main.min.js"></script>
+  <script src="{{site.data.baseUrl.baseUrl}}/assets/js/main.min.js"></script>
 {% endif %}

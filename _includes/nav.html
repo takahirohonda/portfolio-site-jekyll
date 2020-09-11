@@ -23,7 +23,7 @@
           {% if item.submenu != null %}
           <li class="menu-option__2">
             <div class="menu-option__2-inner-container">
-              <a class="menu-option-link" href="{{item.url}}">{{item.menu}}</a>
+              <a class="menu-option-link" href="{{site.data.baseUrl.baseUrl}}/{{item.url}}">{{item.menu}}</a>
               <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
                 <path d="M5.72508 6.36623L9.77631 1.55736C10.2919 0.947042 9.86049 0 9.05024 0H0.94779C0.148067 0 -0.293885 0.936519 0.221726 1.55736L4.27295 6.36623C4.65177 6.80818 5.34626 6.80818 5.72508 6.36623Z" />
               </svg>  
@@ -31,14 +31,14 @@
             <div class="sub-menu-wrapper"></div>
               <ul class="sub-menu">
                 {% for submenuItem in item.submenu %}
-                <li><a class="menu-option-link" href="{{submenuItem.url}}">{{submenuItem.submenuItem}}</a></li>
+                <li><a class="menu-option-link" href="{{site.data.baseUrl.baseUrl}}/{{submenuItem.url}}">{{submenuItem.submenuItem}}</a></li>
                 {% endfor %}
               </ul>
           </li>
 
           {% else %}
           <li class="menu-option__1">
-            <a class="menu-option-link" href="{{item.url}}">{{item.menu}}</a>
+            <a class="menu-option-link" href="{{site.data.baseUrl.baseUrl}}/{{item.url}}">{{item.menu}}</a>
           </li>
           {% endif %}
 

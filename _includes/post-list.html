@@ -7,20 +7,20 @@
             <ul class="page-item-list">
               <!-- for creative writing page-->
               {% if page.permalink == "/creative-writing" %}
-                <li class="page-list"><a class="page-list-title" href="/creative-writing/poetry">Poetry</a>
+                <li class="page-list"><a class="page-list-title" href="{{site.data.baseUrl.baseUrl}}/creative-writing/poetry">Poetry</a>
                   <ul class="page-item-list">
                     {% for post in site.posts %}
                       {% if post.category == "poetry" %}
-                        <li><a class="page-item-title" href="{{post.permalink}}">{{post.title}}</a></li>
+                        <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">{{post.title}}</a></li>
                       {% endif %}
                     {% endfor %}
                   </ul>
                 </li>
-                <li class="page-list"><a class="page-list-title" href="/creative-writing/short-story">Short Story</a>
+                <li class="page-list"><a class="page-list-title" href="{{site.data.baseUrl.baseUrl}}/creative-writing/short-story">Short Story</a>
                   <ul class="page-item-list">
                     {% for post in site.posts %}
                       {% if post.category == "short-story" %}
-                        <li><a class="page-item-title" href="{{post.permalink}}">{{post.title}}</a></li>
+                        <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">{{post.title}}</a></li>
                       {% endif %}
                     {% endfor %}
                   </ul>
@@ -29,7 +29,7 @@
               {% elsif page.permalink == "/creative-writing/poetry" %}
                 {% for post in site.posts %}
                   {% if post.category == "poetry" %}
-                    <li><a class="page-item-title" href="{{post.permalink}}">{{post.title}}</a></li>
+                    <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">{{post.title}}</a></li>
                   {% endif %}
                 {% endfor %}
 
@@ -37,7 +37,7 @@
               {% elsif page.permalink == "/creative-writing/short-story" %}
                 {% for post in site.posts %}
                   {% if post.category == "short-story" %}
-                    <li><a class="page-item-title" href="{{post.permalink}}">{{post.title}}</a></li>
+                    <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">{{post.title}}</a></li>
                   {% endif %}
                 {% endfor %}
               {% endif %}
