@@ -37,7 +37,7 @@ jobs:
     - name: Deploy_To_GithubPage
       uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.GitPageDeploy}}
         BRANCH: master # The branch the action should deploy to.
         FOLDER: _site # The folder the action should deploy.
         REPOSITORY_NAME: mydatahack/mydatahack.github.io
