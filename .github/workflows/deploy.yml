@@ -18,10 +18,10 @@ jobs:
         npm i
         cd ..
     - name: Unit-Tests
-        run: |
-         cd code
-         npm run test-single-run
-         cd ..
+      run: |
+        cd code
+        npm run test-single-run
+        cd ..
     - name: Build-Assets
       run: |
         cd code
