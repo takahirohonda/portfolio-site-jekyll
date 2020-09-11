@@ -30,7 +30,7 @@ jobs:
         pwd
     - name: Build-Jekyll
       run: |
-        jekyll build 
+        bundle exec jekyll build 
     - name: Deploy_To_GithubPage
       uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
