@@ -1,0 +1,41 @@
+name: Deploy to GitHub Page
+on: 
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+
+    - name: Install
+      run: |
+        cd code
+        npm i
+        cd ..
+    - name: Unit-Tests
+        run: |
+         cd code
+         npm run test-single-run
+         cd ..
+    - name: Build-Assets
+      run: |
+        cd code
+        npm run deploy:prod
+        cd ..
+        pwd
+    - name: Build-Jekyll
+      run: |
+        jekyll build 
+    - name: Deploy_To_GithubPage
+      uses: JamesIves/github-pages-deploy-action@3.5.9
+      with:
+        GITHUB_TOKEN: ${{ secrets.GitPageDeploy }}
+        BRANCH: master # The branch the action should deploy to.
+        FOLDER: _site # The folder the action should deploy.
+        TARGET_FOLDER: portfolio
+        CLEAN: true # Automatically remove deleted files from the deploy branch
