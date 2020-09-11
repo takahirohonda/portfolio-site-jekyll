@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: TH - Tech
+permalink: tech
 cssBundles:
   - main.min.css
 jsBundles:

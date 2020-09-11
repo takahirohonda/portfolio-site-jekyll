@@ -1,0 +1,35 @@
+<div class="path-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="page-path">
+          <a href="/">Home</a>
+          {% if page.permalink == "/creative-writing" %} 
+            <a href="/creative-writing">/Creative Writing</a>
+          {% elsif page.category == "poetry" %}
+            <a href="/creative-writing">/Creative Writing</a>
+            <a href="/creative-writing/poetry">/Poetry</a>
+            <a href="{{page.permalink}}">/{{page.title}}</a>
+          {% elsif page.category == "short-story" %}
+            <a href="/creative-writing">/Creative Writing</a>
+            <a href="/creative-writing/short-story">/Short Story</a>
+            <a href="{{page.permalink}}">/{{page.title}}</a>
+          {% elsif page.permalink == "/creative-writing/poetry" %}
+            <a href="/creative-writing">/Creative Writing</a>
+            <a href="/creative-writing/poetry">/Poetry</a>
+          {% elsif page.permalink == "/creative-writing/short-story" %}
+            <a href="/creative-writing">/Creative Writing</a>
+            <a href="/creative-writing/short-story">/Short Story</a>
+          {% elsif page.permalink == "/music" %}
+            <a href="/music">/Music</a>
+          {% elsif page.permalink == "/essay %}
+            <a href="/essay">/Essay</a>
+          {% elsif page.permalink == "/tech %}
+            <a href="/tech">/Tech</a>
+          {% else %}
+          {% endif %}         
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

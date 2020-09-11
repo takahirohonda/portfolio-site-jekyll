@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: TH - Music
+permalink: music
 cssBundles:
   - main.min.css
 jsBundles:

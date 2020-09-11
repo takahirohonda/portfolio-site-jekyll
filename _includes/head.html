@@ -16,11 +16,11 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
 	
-	{% if page.cssBundle != null %}
+	{% if page.cssBundle %}
 		{% for cssBundle in page.cssBundles %}
 		<link rel="stylesheet" href="/assets/css/{{cssBundle}}">
 		{% endfor %}
-	{% elsif page.category == "poetry" || page.category="short-story" %}
+	{% else %}
 		<link rel="stylesheet" href="/assets/css/main.min.css">
 	{% endif %}
 </head>

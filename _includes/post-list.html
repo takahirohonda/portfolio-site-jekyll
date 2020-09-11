@@ -1,0 +1,80 @@
+<div class="page-content-container">
+  <div class="container inner-content-container">
+    <div class="row">
+      <div class="col-md-6">
+        <ul>
+          <li class="page-list"><span class="page-list-title" >List</span>
+            <ul class="page-item-list">
+              <!-- for creative writing page-->
+              {% if page.permalink == "/creative-writing" %}
+                <li class="page-list"><a class="page-list-title" href="poetry.html">Poetry</a>
+                  <ul class="page-item-list">
+                    {% for post in site.posts %}
+                      {% if post.category == "poetry" %}
+                        <li><a class="page-item-title" href="{{post.permalink}}">{{post.title}}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </li>
+                <li class="page-list"><a class="page-list-title" href="#">Short Story</a>
+                  <ul class="page-item-list">
+                    {% for post in site.posts %}
+                      {% if post.category == "short-story" %}
+                        <li><a class="page-item-title" href="{{post.permalink}}">{{post.title}}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </li>
+              <!-- for poetry page-->
+              {% elsif page.permalink == "/creative-writing/poetry" %}
+                {% for post in site.posts %}
+                  {% if post.category == "poetry" %}
+                    <li><a class="page-item-title" href="{{post.permalink}}">{{post.title}}</a></li>
+                  {% endif %}
+                {% endfor %}
+
+              <!-- for short story page -->
+              {% elsif page.permalink == "/creative-writing/poetry" %}
+                {% for post in site.posts %}
+                  {% if post.category == "poetry" %}
+                    <li><a class="page-item-title" href="{{post.permalink}}">{{post.title}}</a></li>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="page-content-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <ul>
+          <li class="page-list"><a class="page-list-title" href="poetry.html">Poetry</a>
+            <ul class="page-item-list">
+              <li><a class="page-item-title" href="solis-occasum.html">Solis Occasum</a></li>
+              <li><a class="page-item-title" href="solis-occasum.html">Solis Occasum</a></li>
+              <li><a class="page-item-title" href="solis-occasum.html">Solis Occasum</a></li>
+              <li><a class="page-item-title" href="solis-occasum.html">Solis Occasum</a></li>
+
+            </ul>
+          </li>
+
+          <li class="page-list"><a class="page-list-title" href="#">Short Story</a>
+            <ul class="page-item-list">
+              <li><a class="page-item-title" href="#">Solis Occasum</a></li>
+              <li><a class="page-item-title" href="#">Solis Occasum</a></li>
+              <li><a class="page-item-title" href="#">Solis Occasum</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TH - Poetry
-permalink: /creative-writing/poetry
+permalink: /creative-writing/short-story
 cssBundles:
   - main.min.css
 jsBundles:
