@@ -39,28 +39,33 @@ export class Navigation {
     const navBurgerContainer = document.body.querySelector('.nav-burger-container') as HTMLElement;
     const bgDark = document.body.querySelector('.bg-dark') as HTMLElement;
     const navContainer = document.body.querySelector('.nav-container') as HTMLElement;
-    navBurgerContainer.addEventListener('click', () => {
-      console.log('nav burger container clicked');
-      this.toggleNavBurger();
-      DomHelper.toggleActive(bgDark);
-      DomHelper.toggleActive(navContainer);
-    });
+    if (navBurgerContainer) {
+      navBurgerContainer.addEventListener('click', () => {
+        console.log('nav burger container clicked');
+        this.toggleNavBurger();
+        DomHelper.toggleActive(bgDark);
+        DomHelper.toggleActive(navContainer);
+      });
+    }
 
-    bgDark.addEventListener('click', () => {
-      DomHelper.toggleActive(bgDark);
-      DomHelper.toggleActive(navContainer);
-      this.toggleNavBurger();
-    });
-
+    if (bgDark) {
+      bgDark.addEventListener('click', () => {
+        DomHelper.toggleActive(bgDark);
+        DomHelper.toggleActive(navContainer);
+        this.toggleNavBurger();
+      });
+    }
     // open and close sub menu for mobile
 
-    const mnuOption2InnerContainer = document.body.querySelector('.menu-option__2-inner-container') as HTMLElement;
-    mnuOption2InnerContainer.addEventListener('mouseover', () => {
-      if (window.innerWidth < 992) {
-      DomHelper.toggleActive(document.body.querySelector('.sub-menu') as HTMLElement);
-      DomHelper.toggleActive(document.body.querySelector('.down-arrow') as HTMLElement);
-      }
+    const menuOption2InnerContainer = document.body.querySelector('.menu-option__2-inner-container') as HTMLElement;
 
-    });
+    if (menuOption2InnerContainer) {
+      menuOption2InnerContainer.addEventListener('mouseover', () => {
+        if (window.innerWidth < 992) {
+          DomHelper.toggleActive(document.body.querySelector('.sub-menu') as HTMLElement);
+          DomHelper.toggleActive(document.body.querySelector('.down-arrow') as HTMLElement);
+        }
+      });
+    }
   }
 }
