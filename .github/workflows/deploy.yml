@@ -28,6 +28,12 @@ jobs:
         npm run deploy:prod
         cd ..
         pwd
+    - name: Set-Base-Url
+        run: |
+          cd deploy-scripts
+          node add-base-url.js
+          cd ..
+          pwd
     - name: Build-Jekyll
       run: |
         sudo apt-get install ruby-full
