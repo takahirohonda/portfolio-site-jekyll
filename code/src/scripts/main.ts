@@ -1,32 +1,24 @@
 // This should be the entry point for any typescript code
-
-// Any namespace should be imported and exported.
-import { custom } from './components/test-component';
 // We could assign name to the modules
-import * as events from './components/EventHandlerInit';
+import * as navigation from './components/Navigation';
 
-interface IWhNamespace {
-  custom: typeof custom;
-  events: typeof events;
+interface IThNamespace {
+  navigation: typeof navigation;
 }
 
 // expose following namespace on wh namespace
 export {
-  custom,
-  events
+  navigation
 };
 
 declare global {
   // rollup creates wf namespace
-  const wh: IWhNamespace;
+  const th: IThNamespace;
 }
 
 // Main logic
 document.addEventListener('DOMContentLoaded', () => {
-  const testComponent = new custom.TestComponent();
-  testComponent.init();
-
-  // (1) initialise Nav Animation EventHandler
-  const eventHandlerInit = new events.EventHandlerInit();
-  eventHandlerInit.init();
+  const nav = new navigation.Navigation();
+  nav.initNavBurgerClickEventListner();
+  nav.initScrollEventListener();
 });

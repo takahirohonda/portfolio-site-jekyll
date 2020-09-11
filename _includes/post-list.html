@@ -7,7 +7,7 @@
             <ul class="page-item-list">
               <!-- for creative writing page-->
               {% if page.permalink == "/creative-writing" %}
-                <li class="page-list"><a class="page-list-title" href="poetry.html">Poetry</a>
+                <li class="page-list"><a class="page-list-title" href="/creative-writing/poetry">Poetry</a>
                   <ul class="page-item-list">
                     {% for post in site.posts %}
                       {% if post.category == "poetry" %}
@@ -16,7 +16,7 @@
                     {% endfor %}
                   </ul>
                 </li>
-                <li class="page-list"><a class="page-list-title" href="#">Short Story</a>
+                <li class="page-list"><a class="page-list-title" href="/creative-writing/short-story">Short Story</a>
                   <ul class="page-item-list">
                     {% for post in site.posts %}
                       {% if post.category == "short-story" %}
@@ -34,9 +34,9 @@
                 {% endfor %}
 
               <!-- for short story page -->
-              {% elsif page.permalink == "/creative-writing/poetry" %}
+              {% elsif page.permalink == "/creative-writing/short-story" %}
                 {% for post in site.posts %}
-                  {% if post.category == "poetry" %}
+                  {% if post.category == "short-story" %}
                     <li><a class="page-item-title" href="{{post.permalink}}">{{post.title}}</a></li>
                   {% endif %}
                 {% endfor %}
@@ -47,34 +47,4 @@
       </div>
     </div>
   </div>
-</div>
-
-
-<div class="page-content-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <ul>
-          <li class="page-list"><a class="page-list-title" href="poetry.html">Poetry</a>
-            <ul class="page-item-list">
-              <li><a class="page-item-title" href="solis-occasum.html">Solis Occasum</a></li>
-              <li><a class="page-item-title" href="solis-occasum.html">Solis Occasum</a></li>
-              <li><a class="page-item-title" href="solis-occasum.html">Solis Occasum</a></li>
-              <li><a class="page-item-title" href="solis-occasum.html">Solis Occasum</a></li>
-
-            </ul>
-          </li>
-
-          <li class="page-list"><a class="page-list-title" href="#">Short Story</a>
-            <ul class="page-item-list">
-              <li><a class="page-item-title" href="#">Solis Occasum</a></li>
-              <li><a class="page-item-title" href="#">Solis Occasum</a></li>
-              <li><a class="page-item-title" href="#">Solis Occasum</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
 </div>

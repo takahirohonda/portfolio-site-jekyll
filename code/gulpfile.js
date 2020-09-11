@@ -79,7 +79,7 @@ gulp.task('deploy-js', () => {
       file: tsDistPathAndFileName,
       format: 'iife',
       // extend whosfree namespace instead of replace
-      name: 'wf',
+      name: 'th',
       extend: true,
       sourcemap: false,
       globals: {
