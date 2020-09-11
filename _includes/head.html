@@ -16,7 +16,7 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="{{site.data.baseUrl.baseUrl}}assets/img/favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="{{site.data.baseUrl.baseUrl}}assets/img/favicon/favicon-16x16.png">
 	
-	{% if page.cssBundle %}
+	{% if page.cssBundles %}
 		{% for cssBundle in page.cssBundles %}
 		<link rel="stylesheet" href="{{site.data.baseUrl.baseUrl}}assets/css/{{cssBundle}}">
 		{% endfor %}
