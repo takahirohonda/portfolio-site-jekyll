@@ -30,6 +30,10 @@ jobs:
         pwd
     - name: Build-Jekyll
       run: |
+        sudo apt-get install ruby-full
+        gem install bundler --user-level
+        bundle config set --local path vendor/bundle
+        bundle install
         bundle exec jekyll build 
     - name: Deploy_To_GithubPage
       uses: JamesIves/github-pages-deploy-action@3.5.9
