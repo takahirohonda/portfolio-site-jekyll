@@ -1,9 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TH - Essay</title>
+	<link rel="apple-touch-icon" sizes="57x57" href="//assets/img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="//assets/img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="//assets/img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="//assets/img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="//assets/img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="//assets/img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="//assets/img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="//assets/img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="//assets/img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/svg" href="//assets/img/favicon/finger-print.svg">
+	<link rel="maks-icon" type="image/svg" sizes="32x32" href="//assets/img/favicon/finger-print.svg">
+	
+	
+		
+		<link rel="stylesheet" href="//assets/css/main.min.css">
+		
+	
+</head>
 
-{% if page.layout == "home" %}
-<div class="top-header d-flex align-items-center justify-content-between">
-{% else %}
+
+<body>
+	<main>
+		<div class="bg-dark"></div>
+		
+
 <div class="top-header nav-pages d-flex align-items-center justify-content-between">
-{% endif %}
+
   <div class="container header-container d-flex align-items-center justify-content-between">
     <div class="logo-container d-flex align-items-center">
       <span data-z data-z-depth=".5em" data-z-layers="3">
@@ -19,30 +46,56 @@
     <nav class="nav-container d-flex align-items-center">
       <ul class="d-flex flex menu">
 
-        {% for item in site.data.navigation.navMenu %}
-          {% if item.submenu != null %}
+        
+          
+          <li class="menu-option__1">
+            <a class="menu-option-link" href="//">Home</a>
+          </li>
+          
+
+        
+          
           <li class="menu-option__2">
             <div class="menu-option__2-inner-container">
-              <a class="menu-option-link" href="{{site.data.baseUrl.baseUrl}}{{item.url}}">{{item.menu}}</a>
+              <a class="menu-option-link" href="//creative-writing">Creative Writing</a>
               <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
                 <path d="M5.72508 6.36623L9.77631 1.55736C10.2919 0.947042 9.86049 0 9.05024 0H0.94779C0.148067 0 -0.293885 0.936519 0.221726 1.55736L4.27295 6.36623C4.65177 6.80818 5.34626 6.80818 5.72508 6.36623Z" />
               </svg>  
             </div>
             <div class="sub-menu-wrapper"></div>
               <ul class="sub-menu">
-                {% for submenuItem in item.submenu %}
-                <li><a class="menu-option-link" href="{{site.data.baseUrl.baseUrl}}{{submenuItem.url}}">{{submenuItem.submenuItem}}</a></li>
-                {% endfor %}
+                
+                <li><a class="menu-option-link" href="//creative-writing/poetry">Poetry</a></li>
+                
+                <li><a class="menu-option-link" href="//creative-writing/short-story">Short Story</a></li>
+                
               </ul>
           </li>
 
-          {% else %}
-          <li class="menu-option__1">
-            <a class="menu-option-link" href="{{site.data.baseUrl.baseUrl}}{{item.url}}">{{item.menu}}</a>
-          </li>
-          {% endif %}
+          
 
-        {% endfor %}
+        
+          
+          <li class="menu-option__1">
+            <a class="menu-option-link" href="//music">Music</a>
+          </li>
+          
+
+        
+          
+          <li class="menu-option__1">
+            <a class="menu-option-link" href="//essay">Essay</a>
+          </li>
+          
+
+        
+          
+          <li class="menu-option__1">
+            <a class="menu-option-link" href="//tech">Tech</a>
+          </li>
+          
+
+        
       </ul>
     </nav>
     <div class="nav-burger-container">
@@ -50,8 +103,47 @@
     </div>
   </div>
 </div>
-{% if page.layout != "home" %}
+
 <div class="nav-dark-bg">
         
 </div>
-{% endif %}
+
+		<div class="path-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="page-path">
+          <a href="/">Home</a>
+          
+                   
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+		<div class="page-content-container">
+  <div class="container inner-content-container">
+    <div class="row">
+      <div class="col-md-6">
+        <ul>
+          <li class="page-list"><span class="page-list-title" >List</span>
+            <ul class="page-item-list">
+              <!-- for creative writing page-->
+              
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+	</main>
+		
+  
+    <script src="//assets/js/main.min.js"></script>
+  
+
+</body>
+
+</html>x
