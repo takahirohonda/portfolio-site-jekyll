@@ -19,9 +19,9 @@ of a martyr
 
 strapped in a ticking time bomb
 
-at the Federation Square 3pm
+at the Federation Square 3pm --
 
-in a sunny Sunday afternoon
+Sunny Sunday afternoon
 <br /><br />
 
 A moment of maddness

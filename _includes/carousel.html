@@ -1,0 +1,38 @@
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <!-- Dynamic content -->
+    {% assign poems = site.posts | where_exp: "post", "post.category == 'poetry'" %}
+    {% assign shortStories = site.posts | where_exp: "post", "post.category == 'short-story'" %}
+
+    {% for post in shortStories reversed limit:3 %}
+    {% if forloop.first == true %}
+    <div class="carousel-item active">
+    {% else %}
+    <div class="carousel-item">
+    {% endif %}
+      <div class="carousel-content-item">
+        <h1 class="carousel-content-title">{{ post.title }}</h1>
+        <p class="carousel-content-text">{{post.category}}</p>
+      </div>
+    </div>
+    {% endfor %}
+
+    {% for post in poems reversed limit:3 %}
+    <div class="carousel-item">
+      <div class="carousel-content-item">
+        <h1 class="carousel-content-title">{{ post.title }}</h1>
+        <p class="carousel-content-text">{{post.category}}</p>
+      </div>
+    </div>
+    {% endfor %}
+
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
