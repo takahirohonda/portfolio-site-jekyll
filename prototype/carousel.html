@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>carousel</title>
+  <style>
+    .outer-container {
+      width: 50%;
+      margin: 40px;
+    }
+
+    .slider {
+      display: flex;
+      width: 100%;
+      height: 300px;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+    }
+
+    .slide-item {
+      width: 100%;
+      height: 100%;
+      flex-shrink: 0;
+      background-color: pink;
+      scroll-snap-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Carousel</h1>
+
+  <div class="outer-container">
+    <div class="slider">
+      <div class="slide-item">
+        <h1>Hey 1</h1>
+      </div>
+      <div class="slide-item">
+        <h1>Hey 2</h1>
+      </div>
+      <div class="slide-item">
+        <h1>Hey 3</h1>
+      </div>
+      <div class="slide-item">
+        <h1>Hey 4</h1>
+      </div>
+
+
+    </div>
+  </div>
+  
+</body>
+</html>

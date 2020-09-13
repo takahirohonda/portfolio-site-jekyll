@@ -9,7 +9,9 @@
   height: 300px;
   display: flex;
   align-items: center;
-  width: 60%;
+  width: 100%;
+  backdrop-filter: saturate(160%) blur(20px);
+  border-radius: 10px;
 }
 
 .carousel-item {
@@ -26,8 +28,10 @@
   color:white;
 }
 
-/* override z-index */
 
-.carousel-indicators {
-  z-index: 0;
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 0px;
 }

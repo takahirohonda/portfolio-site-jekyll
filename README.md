@@ -55,7 +55,7 @@ There are 3 steps to build the Jekyll site.
 2. Build react bundle from /react
 3. Build Jekyll site
 
-```
+```bash
 cd code
 npm run deploy:prod
 cd ..
@@ -64,5 +64,10 @@ npm run build
 cd ..
 jekyll build 
 
-jekyll serve or bundle exec jekyll serve
+# Local development
+# may need to use bundle exec jekyll serve for the firs time
+jekyll serve --host localhot
+
+# for local js and css hot loading
+npm run watch
 ```

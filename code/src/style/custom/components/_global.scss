@@ -4,7 +4,12 @@
   box-sizing: border-box;
 }
 
-/* @import url(//fonts.googleapis.com/css?family=Lato:300:400); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+@font-face {
+  font-family: 'gibson-regular';
+  src: url('../font/Gibson.ttf') format('truetype');
+}
 
 @font-face {
   font-family: 'Lato';
@@ -54,16 +59,9 @@ a {
   text-decoration: none;
   color:white;
   cursor: pointer;
+  &:hover, &:active, &:focus {
+    color: white;
   }
-
-
-a:hover, a:focus, a:active {
-  color: white;
-}
-
-.content {
-  /* background: linear-gradient(180deg, #8BC6EC 0%, #9599E2 100%); */
-  background: linear-gradient(180deg, #2B86C5 0%, #FF6A88 100%)
 }
 
 /* break point reference for bootstrap */

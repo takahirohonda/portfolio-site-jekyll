@@ -1,3 +1,4 @@
+import { consoleTestResultHandler } from 'tslint/lib/test';
 // This should be the entry point for any typescript code
 // We could assign name to the modules
 import * as navigation from './components/Navigation';

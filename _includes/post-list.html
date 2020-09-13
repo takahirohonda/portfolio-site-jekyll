@@ -1,15 +1,20 @@
 <div class="page-content-container">
-  <div class="container inner-content-container">
+  <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-9 content-container">
         <ul>
-          <li class="page-list"><span class="page-list-title" >List</span>
+          <li class="page-list">
+            <span class="page-list-title" >
+            {% if page.heading %}
+              {{ page.heading }}
+            {% endif %}
+            </span>
             <ul class="page-item-list">
               <!-- for creative writing page-->
               {% if page.permalink == "/creative-writing" %}
                 <li class="page-list"><a class="page-list-title" href="{{site.data.baseUrl.baseUrl}}/creative-writing/poetry">Poetry</a>
                   <ul class="page-item-list">
-                    {% for post in site.posts %}
+                    {% for post in site.posts reversed %}
                       {% if post.category == "poetry" %}
                         <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">{{post.title}}</a></li>
                       {% endif %}
@@ -18,7 +23,7 @@
                 </li>
                 <li class="page-list"><a class="page-list-title" href="{{site.data.baseUrl.baseUrl}}/creative-writing/short-story">Short Story</a>
                   <ul class="page-item-list">
-                    {% for post in site.posts %}
+                    {% for post in site.posts reversed %}
                       {% if post.category == "short-story" %}
                         <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">{{post.title}}</a></li>
                       {% endif %}
@@ -27,7 +32,7 @@
                 </li>
               <!-- for poetry page-->
               {% elsif page.permalink == "/creative-writing/poetry" %}
-                {% for post in site.posts %}
+                {% for post in site.posts reversed %}
                   {% if post.category == "poetry" %}
                     <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">{{post.title}}</a></li>
                   {% endif %}
@@ -35,7 +40,7 @@
 
               <!-- for short story page -->
               {% elsif page.permalink == "/creative-writing/short-story" %}
-                {% for post in site.posts %}
+                {% for post in site.posts reversed %}
                   {% if post.category == "short-story" %}
                     <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">{{post.title}}</a></li>
                   {% endif %}

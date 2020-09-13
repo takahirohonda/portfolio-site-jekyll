@@ -135,9 +135,9 @@ gulp.task('watch', () => {
     ui: {port: 8081}
   });
 
-  gulp.watch(tsSrcPath, gulp.series('deploy-js'));
   gulp.watch(sassSrcWatchPath, gulp.series('deploy-css'));
-
+  gulp.watch(tsSrcPath, gulp.series('deploy-js'));
+  
   //reloader
   gulp.watch(tsSrcPath).on('change', browserSync.reload);
   gulp.watch(sassSrcWatchPath).on('change', browserSync.reload);
