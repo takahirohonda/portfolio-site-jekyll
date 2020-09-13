@@ -30,13 +30,13 @@ The necessity of potting the Mars can be explained as an intimidation tactics. S
 As the source of energy to propel the giant pool cue, we will harness the friction that occurs during masturbation. Friction causes heat and then heat generates energy (Figure 2-3). Human race must stop wasting their energy on masturbation. We must preserve the energy for the imminent launch of the giant cue. We will also build a nuclear power plant around Stephen Hawkins’ penis that is connected to the launch button (Figure 2-4).
 <br /><br />
 
-As the replacement of the moon, we will build artificial wave machines in all the major surf beaches across the globe.
+As a replace for the potted moon, we will build artificial wave machines in all the major surf beaches across the globe.
 <br /><br />
 
 - <b>Human Front Rank system</b>
 <br /><br />
 
-As we have declared in the opening statement, our solo purpose is to defend human race from the impending alien attack. The Human Front treats everybody who is willing to sacrifice his life for our cause equally. We do not have ranks. We must refer each other, ‘Comrade’. Each member can call himself whatever he wishes to, as in ‘General’, ‘Major’, ‘Corporal’ and so on if the title boosts the morale and commitment of the individual. However, those titles do not hold any practical purpose for their place in the rank.
+As we have declared in the opening statement, our solo purpose is to defend human race from the impending alien attack. The Human Front treats everybody who is willing to sacrifice his life for our cause equally. We do not have ranks. We usually refer each other, ‘Comrade’. Each member can call themself whatever they wish to, as in ‘General’, ‘Major’, ‘Corporal’ and so on if the title boosts the morale and commitment of the individual. However, those titles do not hold any practical purpose for their place in the rank.
 <br /><br />
 
 - <b>Membership fee</b>
@@ -48,5 +48,5 @@ $50 dollars of joining fee or a piece of artwork. All the membership fee goes to
 - <b>Closing statement</b>
 <br /><br />
 
-Since the dawn of the human race, we have been gazing into the darkness of the endless universe and wondered if there would be any other intelligence other than us. Now, an overwhelming amount of evidence suggests that there is a hostile horde of aliens planning to take over our beautiful country. It is high time for human race to recognise the fact and prepare for the war. Our unity and determination only defeat the imminent alien invasion. Human race must unite against aliens.
+Since the dawn of the human race, we have been gazing into the darkness of the endless universe and wondered if there would be any other intelligence other than us. Now, an overwhelming amount of evidence suggests that there is a hostile horde of aliens planning to take over our beautiful planet. It is high time for human race to recognise the fact and prepare for the war. Our unity and determination can defeat the imminent alien invasion. Human race must unite against aliens.
 <br /><br />
