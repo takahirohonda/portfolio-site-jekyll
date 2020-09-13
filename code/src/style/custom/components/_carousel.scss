@@ -17,21 +17,28 @@
 .carousel-item {
   height: auto;
 }
+
 .carousel-content-item {
   display: flex;
   flex-direction: column;
   color: white;
   text-align: center;
+  padding: 0 70px;
 }
 
 .carousel-content-text {
   color:white;
 }
 
+.carousel-indicators {
+  li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 0px;  
+  }
+}
 
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  border: 0px;
+.carousel-content-title {
+  font-size: 1.75rem;
 }
