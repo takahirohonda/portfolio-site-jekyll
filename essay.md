@@ -2,7 +2,7 @@
 layout: page
 title: TH - Essay
 permalink: essay
-heading: Coming Soon...
+heading: Essays
 cssBundles:
   - main.min.css
 jsBundles:

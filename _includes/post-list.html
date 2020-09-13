@@ -12,7 +12,7 @@
             <ul class="page-item-list">
               <!-- for creative writing page-->
               {% if page.permalink == "/creative-writing" %}
-                <li class="page-list"><a class="page-list-title" href="{{site.data.baseUrl.baseUrl}}/creative-writing/poetry">Poetry</a>
+                <li class="page-list"><a class="page-list-title" href="{{site.data.baseUrl.baseUrl}}/creative-writing/poetry">Poems</a>
                   <ul class="page-item-list">
                     {% for post in site.posts reversed %}
                       {% if post.category == "poetry" %}
@@ -21,7 +21,7 @@
                     {% endfor %}
                   </ul>
                 </li>
-                <li class="page-list"><a class="page-list-title" href="{{site.data.baseUrl.baseUrl}}/creative-writing/short-story">Short Story</a>
+                <li class="page-list"><a class="page-list-title" href="{{site.data.baseUrl.baseUrl}}/creative-writing/short-story">Short Stories</a>
                   <ul class="page-item-list">
                     {% for post in site.posts reversed %}
                       {% if post.category == "short-story" %}
@@ -42,6 +42,15 @@
               {% elsif page.permalink == "/creative-writing/short-story" %}
                 {% for post in site.posts reversed %}
                   {% if post.category == "short-story" %}
+                    <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">{{post.title}}</a></li>
+                  {% endif %}
+                {% endfor %}
+      
+
+              <!-- for essay page -->
+              {% elsif page.permalink == "essay" %}
+                {% for post in site.posts reversed %}
+                  {% if post.category == "essay" %}
                     <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">{{post.title}}</a></li>
                   {% endif %}
                 {% endfor %}
