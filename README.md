@@ -71,3 +71,27 @@ jekyll serve --host localhot
 # for local js and css hot loading
 npm run watch
 ```
+
+# Tips
+
+chaining or in where_exp can be only done two
+
+this works.
+
+```
+{% assign writingList = site.posts 
+  | where_exp: "post", "post.title == site.data.carousel.carouselItems.creativeWriting[0] 
+  or post.title == site.data.carousel.carouselItems.creativeWriting[1]"
+%}
+```
+
+this errors
+
+```
+{% assign writingList = site.posts 
+  | where_exp: "post", "post.title == site.data.carousel.carouselItems.creativeWriting[0] 
+  or post.title == site.data.carousel.carouselItems.creativeWriting[1]
+  or post.title == site.data.carousel.carouselItems.creativeWriting[2]"
+%}
+
+```
