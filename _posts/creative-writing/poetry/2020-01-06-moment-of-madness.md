@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Moment of Maddness
+title:  Moment of Madness
 category: poetry
-permalink: /creative-writing/poetry/moment-of-maddness
+permalink: /creative-writing/poetry/moment-of-madness
 ---
 
 A moment of madness
@@ -24,7 +24,7 @@ at the Federation Square 3pm --
 Sunny Sunday afternoon
 <br /><br />
 
-A moment of maddness
+A moment of madness
 
 Come to me -- Come to me --
 
@@ -41,7 +41,7 @@ justifying my will with a perfect will --
 There is no such will anyway
 <br /><br />
 
-A moment of maddness
+A moment of madness
 
 Free me -- Free me --
 
