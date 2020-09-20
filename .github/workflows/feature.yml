@@ -1,0 +1,42 @@
+name: Deploy to GitHub Page
+on: 
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+
+    - name: Install
+      run: |
+        cd code
+        npm i
+        cd ..
+    - name: Unit-Tests
+      run: |
+        cd code
+        npm run test-single-run
+        cd ..
+    - name: Build-Assets
+      run: |
+        cd code
+        npm run deploy:prod
+        cd ..
+        pwd
+    - name: Set-Base-Url
+      run: |
+        cd deploy-scripts
+        node add-base-url.js
+        cd ..
+        pwd
+    - name: Build-Jekyll
+      run: |
+        sudo apt-get install ruby-full
+        sudo gem install bundler
+        sudo bundle install
+        bundle exec jekyll build 
