@@ -7,14 +7,32 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-9 content-container">
-        <p class="work-title">{{page.title}}</p>
-          <div class="post-content">
-            {{ content }}
-          </div>
-      </div>
-      <div class="col-md-3">
         
+
+        {% if page.category == 'essay' %}
+        <p class="work-title no-margin-bottom">{{page.title}}</p>
+        <div class="post-date-container">
+          <p class="post-content">{{page.date | date: '%Y-%m-%d'}}</p>
+        </div>
+        {% else %}
+        <p class="work-title">{{page.title}}</p>
+        {% endif %}
+
+        <div class="post-content">
+          {{ content }}
+        </div>
+
+        {% if page.category == 'poetry' or page.category == 'short-story' %}
+        <div class="post-content">
+          <p>({{page.date | date: '%Y'}})</p>
+        </div>
+        {% endif %}
+
       </div>
     </div>
+    <div class="col-md-3">
+
+    </div>
   </div>
+</div>
 </div>
