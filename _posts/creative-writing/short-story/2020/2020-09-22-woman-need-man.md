@@ -27,4 +27,4 @@ The university teaches that women are victims. Men are oppressive. Society tells
 'I see. I understand your pain, man.' I said.
 <br /><br />
  
-'But, you know what, it's much simpler than that. She left you because you were an arsehole. Don't intellectualise it. A woman needs a man. I have faith. There is a woman out there who needs me.'
+'But, you know what, it's much simpler than that. She left you because you were an arsehole. Don't intellectualise it. A woman needs a man. I have faith. There is a woman out there who needs me. I'm gonna meet her one day.'
