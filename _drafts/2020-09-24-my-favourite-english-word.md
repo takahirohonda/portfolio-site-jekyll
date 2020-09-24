@@ -10,5 +10,3 @@ tl;dr
 
 My favourite English word is bubble. It is magical.
 <br /><br />
-
-
