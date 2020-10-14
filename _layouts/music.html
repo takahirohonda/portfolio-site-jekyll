@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  <main>
+    {% include bg-dark.html %}
+    {% include nav.html %}
+    {% include path-container.html %}
+    <div class="page-content-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 content-container">
+            <ul>
+              <li class="page-list">
+                <span class="page-list-title">
+                  <div class="text-center">Discography</div>
+
+                  <style>
+                    .record-container {
+                      padding: 20px;
+                      margin: 30px 0px;
+                    }
+
+                    .bc-embed-desktop {
+                      display: none;
+                    }
+
+                    .bc-embed-mobile {
+                      display: block;
+                    }
+
+                    @media only screen and (min-width: 768px) {
+                      .bc-embed-desktop {
+                        display: block;
+                      }
+
+                      .bc-embed-mobile {
+                        display: none;
+                      }
+                    }
+
+                    .discography-catalog-category {
+                      margin-top: 40px;
+                    }
+                  </style>
+                  <h4 class="discography-catalog-category text-decoration-underline text-center">Albums</h4>
+                  <div class="record-container d-flex align-items-center flex-column">
+                    <h4>Introvertebrate (2020)</h4>
+                    <iframe class="bc-embed-desktop" style="border: 0; width: 67%; height: 120px;"
+                      src="https://bandcamp.com/EmbeddedPlayer/album=201149207/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
+                      seamless><a href="https://thehondas.bandcamp.com/album/introvertebrate">Introvertebrate by The
+                        Hondas</a></iframe>
+                    <iframe class="bc-embed-mobile" style="border: 0; width: 350px; height: 470px;"
+                      src="https://bandcamp.com/EmbeddedPlayer/album=201149207/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                      seamless><a href="https://thehondas.bandcamp.com/album/introvertebrate">Introvertebrate by The
+                        Hondas</a></iframe>
+                  </div>
+                  <div class="record-container d-flex align-items-center flex-column">
+                    <h4>Punk Suburbia (2015)</h4>
+                    <iframe class="bc-embed-desktop" style="border: 0; width: 67%; height: 120px;"
+                      src="https://bandcamp.com/EmbeddedPlayer/album=2916017094/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
+                      seamless><a href="https://thehondas.bandcamp.com/album/punk-suburbia">Punk Suburbia by The
+                        Hondas</a></iframe>
+                    <iframe class="bc-embed-mobile" style="border: 0; width: 350px; height: 470px;"
+                      src="https://bandcamp.com/EmbeddedPlayer/album=2916017094/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                      seamless><a href="https://thehondas.bandcamp.com/album/punk-suburbia">Punk Suburbia by The
+                        Hondas</a></iframe>
+                  </div>
+                  <h4 class="discography-catalog-category text-decoration-underline text-center">EPs</h4>
+                  <div class="record-container d-flex align-items-center flex-column">
+                    <h4>Imperfection is the finger print of your soul (2015)</h4>
+                    <iframe class="bc-embed-desktop" style="border: 0; width: 67%; height: 120px;"
+                      src="https://bandcamp.com/EmbeddedPlayer/album=3738909290/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
+                      seamless><a
+                        href="https://thehondas.bandcamp.com/album/imperfection-is-the-fingerprint-of-your-soul">Imperfection
+                        is the
+                        fingerprint of your soul by The Hondas</a></iframe>
+                    <iframe class="bc-embed-mobile" style="border: 0; width: 350px; height: 470px;"
+                      src="https://bandcamp.com/EmbeddedPlayer/album=3738909290/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+                      seamless><a
+                        href="https://thehondas.bandcamp.com/album/imperfection-is-the-fingerprint-of-your-soul">Imperfection
+                        is the
+                        fingerprint of your soul by The Hondas</a></iframe>
+                  </div>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+  </main>
+  {% include js-script-tag.html %}
+</body>
+
+</html>

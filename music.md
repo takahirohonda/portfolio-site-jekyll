@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: music
 title: TH - Music
-heading: Coming Soon...
 permalink: music
 cssBundles:
   - main.min.css
