@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Fake Brick
-date:   2020-09-06 12:05:30 +1000
 category: short-story
 permalink: /creative-writing/short-story/fake-brick
 ---
