@@ -41,7 +41,7 @@ jobs:
         sudo bundle install
         bundle exec jekyll build 
     - name: Deploy_To_GithubPage
-      uses: JamesIves/github-pages-deploy-action@latest
+      uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         ACCESS_TOKEN: ${{ secrets.GIT_PAGE_DEPLOY }}
         BRANCH: master # The branch the action should deploy to.
