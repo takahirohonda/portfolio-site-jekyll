@@ -95,3 +95,9 @@ this errors
 %}
 
 ```
+
+We can reverse sorting (meaning in an ascending order). Post used to be sorted in ascending order. Now without reversed, this becomes descending (which is the default behaviour). 
+
+```
+{% for post in site.posts reversed %}
+```

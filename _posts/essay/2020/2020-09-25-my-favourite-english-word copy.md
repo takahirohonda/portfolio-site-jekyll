@@ -2,7 +2,7 @@
 layout: post
 title:  My favourite English word
 category: essay
-permalink: /essay/acound-the-corner
+permalink: /essay/my-fav-word
 ---
 
 tl;dr

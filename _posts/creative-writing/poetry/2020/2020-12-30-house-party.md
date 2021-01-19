@@ -15,7 +15,7 @@ I liked Eileen more than Sara
 
 <i>Distance is -- a -- Tyranny</i><br /><br />
 
-was the only lame execuse
+was the only lame excuse
 
 I could've though of
 

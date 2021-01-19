@@ -23,7 +23,7 @@ We have little knowledge regarding their biology, culture, religions, let alone 
 The game of the pool is the most sophisticated crystallization of human minds (Figure 2-1). We decided to harness its strength to defeat the aliens.
 <br /><br />
  
-We must build a giant cue that is as large as Australian continent. We shoot the cue up in the sky to hit the moon. The moon (cue ball) will first hit Mars (red ball) and pot it into the sun. The moon will bounce off and travel straight to the mothership. Subsequently, the mother ship will be potted to the black hole (Figure 2-2). The atomisation of the mother ship through the black hole will cause a chain reaction of spontaneous combustions among the rest of aliens.
+We must build a giant cue that is as large as Australian continent. We shoot the cue up in the sky to hit the moon. The moon (cue ball) will first hit Mars (red ball) and pot it into the sun. The moon will bounce off and travel straight to the mother ship. Subsequently, the mother ship will be potted to the black hole (Figure 2-2). The atomisation of the mother ship through the black hole will cause a chain reaction of spontaneous combustions among the rest of aliens.
 The necessity of potting the Mars can be explained as an intimidation tactic. Successful potting of the Mars will signal aliens our unity and determination.
 <br /><br />
  
