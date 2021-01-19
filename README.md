@@ -101,3 +101,15 @@ We can reverse sorting (meaning in an ascending order). Post used to be sorted i
 ```
 {% for post in site.posts reversed %}
 ```
+
+# Deployment Error
+
+This suddenly started happening...
+
+Removed Gemfile.lock and it worked. I think it was a bundler update and bundler version in the lock file got outdated.
+
+```
+usr/lib/ruby/2.5.0/rubygems.rb:289:in `find_spec_for_exe': can't find gem bundler (>= 0.a) with executable bundle (Gem::GemNotFoundException)
+	from /usr/lib/ruby/2.5.0/rubygems.rb:308:in `activate_bin_path'
+	from /usr/local/bin/bundle:23:in `<main>'
+```
