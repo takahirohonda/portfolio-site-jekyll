@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -36,8 +36,6 @@ jobs:
         pwd
     - name: Build-Jekyll
       run: |
-        sudo apt-get install ruby
-        sudo gem update --system
         sudo gem install bundler -v 1.17.3
         sudo bundle install
         bundle exec jekyll build 
