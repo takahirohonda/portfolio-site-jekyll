@@ -36,6 +36,7 @@ jobs:
         pwd
     - name: Build-Jekyll
       run: |
+        sudo gem install bundler
         sudo bundle install
         bundle exec jekyll build 
     - name: Deploy_To_GithubPage
