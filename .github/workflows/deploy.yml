@@ -36,6 +36,7 @@ jobs:
         pwd
     - name: Build-Jekyll
       run: |
+        sudo apt-get install ruby-full
         sudo gem install bundler
         sudo bundle install
         bundle exec jekyll build 
