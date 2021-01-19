@@ -36,8 +36,9 @@ jobs:
         pwd
     - name: Build-Jekyll
       run: |
-        sudo apt-get install ruby-full
-        sudo gem install bundler
+        sudo apt-get install ruby
+        sudo gem update --system
+        sudo gem install bundler -v 1.17.3
         sudo bundle install
         bundle exec jekyll build 
     - name: Deploy_To_GithubPage
