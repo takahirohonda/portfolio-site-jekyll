@@ -13,7 +13,7 @@ No consequence -- No future --
 
 I'll embrace you with my arms wide open
 
-with clarity -- purpose -- deamon -- angel 
+with clarity -- purpose -- demon -- angel 
 
 of a martyr
 
@@ -55,7 +55,7 @@ Cold stare of the 3-eyed skull
 
 with 20-20-20 vision
 
-My dope, doctor, dog, dough, doctorin
+My dope, doctor, dog, dough, doctrine
 
 documentation, Dostoevsky
 

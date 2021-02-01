@@ -13,5 +13,5 @@ God is a word
 
 As I speak these Words --
 
-I am the creater of the World
+I am the creator of the World
 <br /><br />
