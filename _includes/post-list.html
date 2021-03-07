@@ -13,46 +13,114 @@
               <!-- for creative writing page-->
               {% if page.permalink == "/creative-writing" %}
                 <li class="page-list"><a class="page-list-title text-decoration-underline" href="{{site.data.baseUrl.baseUrl}}/creative-writing/poetry">Poems</a>
-                  <ul class="page-item-list">
-                    {% for post in site.posts %}
-                      {% if post.category == "poetry" %}
-                        <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">&#x25CF;&nbsp;{{post.title}}</a></li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
+                  <!-- Get poerty category and create an array -->
+                  {% assign poetryPosts = site.posts | where_exp: "item", "item.category == 'poetry'" %}
+                  <!-- Create an array for postsByYear -->
+                  {% assign postsByYear = poetryPosts | group_by_exp: "post", "post.date | date: '%Y'" %}
+            
+                  <!-- Create list from postsByYear -->
+                  {% for postsByYearList in postsByYear %}
+                    <details class="post-list-details">
+                      <summary>
+                        {{postsByYearList.name}}
+                      </summary>
+                        <!-- Then get the list for the posts -->
+                        <ul class="page-item-list">
+                          {% for post in postsByYearList.items %}
+                            <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">&#x25CF;&nbsp;{{post.title}}</a></li>
+                          {% endfor %}
+                        </ul>
+                      </details>
+                  {% endfor %}
                 </li>
+
                 <li class="page-list"><a class="page-list-title text-decoration-underline" href="{{site.data.baseUrl.baseUrl}}/creative-writing/short-story">Short Stories</a>
-                  <ul class="page-item-list">
-                    {% for post in site.posts %}
-                      {% if post.category == "short-story" %}
-                        <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">&#x25CF;&nbsp;{{post.title}}</a></li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
+                  <!-- Get poerty category and create an array -->
+                  {% assign shortStoryPosts = site.posts | where_exp: "item", "item.category == 'short-story'" %}
+                  <!-- Create an array for postsByYear -->
+                  {% assign postsByYear = shortStoryPosts | group_by_exp:"post", "post.date | date: '%Y'" %}
+              
+                  <!-- Create list from postsByYear -->
+                  {% for postsByYearList in postsByYear %}
+                  <details class="post-list-details">
+                    <summary>
+                      {{postsByYearList.name}}
+                    </summary>
+                      <!-- Then get the list for the posts -->
+                      <ul class="page-item-list">
+                        {% for post in postsByYearList.items %}
+                          <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">&#x25CF;&nbsp;{{post.title}}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </details>
+                  {% endfor %}
                 </li>
+
               <!-- for poetry page-->
               {% elsif page.permalink == "/creative-writing/poetry" %}
-                {% for post in site.posts %}
-                  {% if post.category == "poetry" %}
-                    <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">&#x25CF;&nbsp;{{post.title}}</a></li>
-                  {% endif %}
+                <!-- Get poerty category and create an array -->
+                {% assign poetryPosts = site.posts | where_exp: "item", "item.category == 'poetry'" %}
+                 <!-- Create an array for postsByYear -->
+                {% assign postsByYear = poetryPosts | group_by_exp: "post", "post.date | date: '%Y'" %}
+           
+                <!-- Create list from postsByYear -->
+                {% for postsByYearList in postsByYear %}
+                  <details class="post-list-details">
+                    <summary>
+                      {{postsByYearList.name}}
+                    </summary>
+                      <!-- Then get the list for the posts -->
+                      <ul class="page-item-list">
+                        {% for post in postsByYearList.items %}
+                          <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">&#x25CF;&nbsp;{{post.title}}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </details>
                 {% endfor %}
 
               <!-- for short story page -->
               {% elsif page.permalink == "/creative-writing/short-story" %}
-                {% for post in site.posts %}
-                  {% if post.category == "short-story" %}
-                    <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">&#x25CF;&nbsp;{{post.title}}</a></li>
-                  {% endif %}
+                <!-- Get poerty category and create an array -->
+                {% assign shortStoryPosts = site.posts | where_exp: "item", "item.category == 'short-story'" %}
+                <!-- Create an array for postsByYear -->
+                {% assign postsByYear = shortStoryPosts | group_by_exp:"post", "post.date | date: '%Y'" %}
+            
+                <!-- Create list from postsByYear -->
+                {% for postsByYearList in postsByYear %}
+                <details class="post-list-details">
+                  <summary>
+                    {{postsByYearList.name}}
+                  </summary>
+                    <!-- Then get the list for the posts -->
+                    <ul class="page-item-list">
+                      {% for post in postsByYearList.items %}
+                        <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">&#x25CF;&nbsp;{{post.title}}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </details>
                 {% endfor %}
       
 
               <!-- for essay page -->
               {% elsif page.permalink == "essay" %}
-                {% for post in site.posts %}
-                  {% if post.category == "essay" %}
-                    <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">&#x25CF;&nbsp;{{post.title}}</a></li>
-                  {% endif %}
+                <!-- Get poerty category and create an array -->
+                {% assign essayPosts = site.posts | where_exp: "item", "item.category == 'essay'" %}
+                <!-- Create an array for postsByYear -->
+                {% assign postsByYear = essayPosts | group_by_exp:"post", "post.date | date: '%Y'" %}
+            
+                <!-- Create list from postsByYear -->
+                {% for postsByYearList in postsByYear %}
+                <details class="post-list-details">
+                  <summary>
+                    {{postsByYearList.name}}
+                  </summary>
+                    <!-- Then get the list for the posts -->
+                    <ul class="page-item-list">
+                      {% for post in postsByYearList.items %}
+                        <li><a class="page-item-title" href="{{site.data.baseUrl.baseUrl}}{{post.permalink}}">&#x25CF;&nbsp;{{post.title}}</a></li>
+                      {% endfor %}
+                    </ul>
+                  </details>
                 {% endfor %}
               {% endif %}
             </ul>
