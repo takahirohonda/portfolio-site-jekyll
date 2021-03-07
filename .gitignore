@@ -7,3 +7,7 @@ _site
 assets/css/*.min.*
 assets/js/*.min.*
 assets/js/*.html
+
+# Gemfile.lock is giving trouble to deploy...
+
+Gemfile.lock

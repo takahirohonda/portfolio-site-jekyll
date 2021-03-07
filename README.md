@@ -66,6 +66,7 @@ jekyll build
 
 # Local development
 # may need to use bundle exec jekyll serve for the firs time
+# may need to run `bundle install`
 jekyll serve --host localhot
 
 # for local js and css hot loading
