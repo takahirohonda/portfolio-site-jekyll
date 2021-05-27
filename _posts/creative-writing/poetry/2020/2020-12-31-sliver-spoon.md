@@ -7,9 +7,9 @@ permalink: /creative-writing/poetry/silver-spoon
 
 Food fed by a Silver Spoon --
 
-How Easy -- to spit It out --
+How Easy -- to spit it out --
 
-How Easy -- to forget about It
+How Easy -- to forget about it
 
 And completely occupy Myself --
 
@@ -18,7 +18,9 @@ With -- a -- Thought --
 <br />
 <br />
 
-How Good it'd have been tasted --
+How Good --
+
+It could have been --
 
 Had the Spoon been Gold
 <br /><br />

@@ -9,3 +9,4 @@ My mate's friend's name is Christian. So we call him Buddah. Another one says so
 # Idea 3
 
 Family party with cocaine and MDMA pills on Christmas Eve.
+
