@@ -44,7 +44,7 @@ Whisper into a paper cup,
 
 Connected to the other paper cup,
 
-By her umbilical cord --
+By Her umbilical cord --
 <br /><br />
 
 We blamed Her,
