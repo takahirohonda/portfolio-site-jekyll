@@ -12,7 +12,7 @@ The time we spend together From the time we are part --
 From the time we were born till we met --
 
 
-## 
+## Tantric Draft
 
 Song writing is like tantric sex. I stare at my muse for weeks and weeks, no action. Then, suddenly she pulls me and I am in. Bang! When it's done, it's like a whole body orgasm. That is my relationship with my song-writing.
 
@@ -23,7 +23,10 @@ Her eyes, her wrist,
 Her neck, her lips,
 Her hips, her navel,
 Her hair, her pubic hair,
+Her vagina, her anus,
 Her, her, her, she, she, she,
+Promised land, Oasis in the desert,
+Fucking Cock Lock,
 Day after day,
 Week after week,
 Sometimes month after month,
@@ -75,11 +78,6 @@ Bang,
 Whole body orgasm --
 
 Giving rise to -- This --
-
-
-
-
-
 
 
 ## Apocalypse draft
