@@ -1,17 +1,4 @@
-# Gather animals
 
-
-Yeah I know.
-
-Just between you and me,
-
-I’ve been building an ark.
-
-The wrath will come.
-
-Better be ready.
-
-Please gather pairs of various animals that you come across.
 
 # Rejection letter idea
 
@@ -54,3 +41,13 @@ Drunken guy goes to a stripper without realising it. Then while playing pool, he
 
 Family party with cocaine and MDMA pills on Christmas Eve.
 
+
+# Stealing dogs
+
+My brother used to steal dogs from rich people to make money. He would go to a rich suburb like Toorak or South Yarra and steal a dog from a rich-looking house. He kept them in the garage at my mother's place. She's never gone into the garage because she was afraid of Redback spiders. It was kinda funny. She was an intelligent officer for the North Vietnam during the war. She used to camp in Vietnamese rain forest where all kind of crazy tropical creatures live. She was the badass Charlie's angel back in Vietnam. Back in the day, she would have bitten off the head of Readback if they get in her way. Australian suburban life must have mellowed her.
+<br /><br />
+
+After a few days, missing dog posters would pop up everywhere: ***Lost Dog, my poor pooch, he's such an angel, he has big brown eyes, you will be rewarded etc etc***.
+<br /><br />
+
+He would bring the dog to the right owner and get the reward. One time, he got $500 from an old couple. 
