@@ -14,7 +14,7 @@ I appreciate the time you took to come in for the physical performance trial for
 Thank you for participating in the trial with me. I enjoyed meeting you and appreciate your interest in applying for my opening position. I also appreciate the time you invested in foreplay although I feel that you could have spent a little longer and made a little bit more effort on it.
 <br /><br />
 
-I wish you success in your ongoing mating partner search. Please do not consider re-applying for this opening position for which you do not adequately qualify in the future. It will be a waste of time for both of us.
+I wish you success in your ongoing mating partner search. Please do not consider re-applying for this opening position for which you do not adequately qualify. It will be a waste of time for both of us.
 <br /><br />
 
 Sincerely,
