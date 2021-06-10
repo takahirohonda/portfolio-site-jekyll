@@ -1,12 +1,6 @@
 ---
 layout: post
-title:  My favourite English word
+title:  Why I Write Songs
 category: essay
-permalink: /essay/my-fav-word
+permalink: /essay/why-i-write-songs
 ---
-
-tl;dr
-<br /><br />
-
-My favourite English word is bubble. It is magical.
-<br /><br />
