@@ -20,5 +20,5 @@ permalink: /creative-writing/short-story/christian
 'Nah, they wouldn't like it. The more close-minded the organisation is, the less it has a sense of humor.'
 <br /><br />
 
-'I think you are right. Let's call him Buddha too then.'
+'I think you are right. Let's call him Buddha, too, then.'
 <br /><br />
