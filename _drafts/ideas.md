@@ -13,3 +13,7 @@ I am happy again. Harrah to the pandemic.
 # Poll Jumping
 
 The origin of poll jumping was to cross the river with a long stick before the brige was invented.
+
+# Vaccination program
+
+Corona vaccine injects micro bots which tracks people. If you go outside of 5k radius during lockdown, it will explodes your head.
