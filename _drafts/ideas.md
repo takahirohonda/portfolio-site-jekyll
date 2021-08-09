@@ -1,12 +1,15 @@
+# Corona delta max
 
+It all started with dead star fish washed on the beach. 
 
+Corona delta max turns people into zombies. It was created the pharmaseutical company while they are developing the vaccine. They experimented to use Corona as a bio weapon.
 
-# Idea 1
+I was planning to move to the contry, but insted bought an property in Brunswick and live near the city. Now I am regretting my decision.
 
-Drunken guy goes to a stripper without realising it. Then while playing pool, he locks his eyes with the girl and the girl sat down and opens her legs and show him pussy. Eventually he realises that he was in the strip club and that's when he knows he went too far.
+Surrounded by zombies. Sitting in my apartment. I give up. I go outside. I get bitten by zombies and turn myself into one. 
 
-# Diamond
+I am happy again. Harrah to the pandemic.
 
-I sometimes wonder how diamonds get shipped from one place to another. You probably cannot send it with Australia Post. Surely, that's not reliable. How about trusted courier like UPC with their black vans? Nah, probably that's not good enough either. We're talking about diamonds here. They are forever.
+# Poll Jumping
 
-Ok, so if someone wants to ship a diamond to someone else, they would hire two men in black suits with sun glasses on. They always work in paris. One of them would carry a suitcase. Inside the suitcase, they have a hole that is a perfect fit for the dyamond they carry. One suitecase per diamond. Then they will take a plain to carry it to the destination. They only use first-class of course. 
+The origin of poll jumping was to cross the river with a long stick before the brige was invented.
