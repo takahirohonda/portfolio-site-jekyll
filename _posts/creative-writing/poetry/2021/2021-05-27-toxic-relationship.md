@@ -2,7 +2,7 @@
 layout: post
 title:  Toxic Relationship
 category: poetry
-permalink: /creative-writing/poetry/tantra
+permalink: /creative-writing/poetry/toxic-relationship
 ---
 
 This - is - Toxic --
