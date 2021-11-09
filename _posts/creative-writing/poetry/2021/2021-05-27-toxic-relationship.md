@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Tantra
+title:  Toxic Relationship
 category: poetry
 permalink: /creative-writing/poetry/tantra
 ---
 
-This - is - Tantric --
+This - is - Toxic --
 
 My relationship with poetry --
 
