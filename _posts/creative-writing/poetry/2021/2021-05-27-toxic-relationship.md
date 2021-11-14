@@ -50,7 +50,7 @@ I have to start the ritual from the start again --
 
 I try not to --
 
-But, I sometimes masturbate in -- Secret --
+But, I sometimes masturbate - in -- Secret --
 
 (She know about it, she's just lying beside me, not asleep and feels the movement of my hand, but she won't say a word),
 
