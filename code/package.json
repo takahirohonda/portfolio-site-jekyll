@@ -42,7 +42,6 @@
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^6.2.0",
     "gulp-order": "^1.2.0",
-    "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^4.0.0",
@@ -70,6 +69,7 @@
   },
   "dependencies": {
     "eslint": "^6.7.2",
+    "gulp-sass": "^5.0.0",
     "tslint": "^5.20.1"
   }
 }
