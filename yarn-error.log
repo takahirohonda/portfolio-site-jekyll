@@ -1,0 +1,26 @@
+Arguments: 
+  /Users/taka/.nvm/versions/node/v16.0.0/bin/node /Users/taka/.nvm/versions/node/v10.22.0/lib/node_modules/yarn/bin/yarn.js add /
+
+PATH: 
+  /Users/taka/.nvm/versions/node/v16.0.0/bin:/Users/taka/.nvm/versions/node/v14.18.2/bin:/Users/taka/.nvm/versions/node/v16.0.0/bin:/usr/local/sbin:/Users/taka/.asdf/shims:/usr/local/Cellar/asdf/0.8.1_1/libexec/bin:/Users/taka/.rvm/gems/ruby-2.7.1/bin:/Users/taka/.rvm/gems/ruby-2.7.1@global/bin:/Users/taka/.rvm/rubies/ruby-2.7.1/bin:/Users/taka/.nvm/versions/node/v14.18.2/bin:/Users/taka/.nvm/versions/node/v10.22.0/lib/node_modules/yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/sbin:/Users/taka/.rvm/gems/ruby-2.7.1/bin:/Users/taka/.rvm/gems/ruby-2.7.1@global/bin:/Users/taka/.rvm/rubies/ruby-2.7.1/bin:/Users/taka/.nvm/versions/node/v14.18.2/bin:/Users/taka/.nvm/versions/node/v10.22.0/lib/node_modules/yarn/bin:/Users/taka/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/sbin:/Users/taka/.rvm/gems/ruby-2.7.1/bin:/Users/taka/.rvm/gems/ruby-2.7.1@global/bin:/Users/taka/.rvm/rubies/ruby-2.7.1/bin:/Users/taka/.nvm/versions/node/v14.18.2/bin:/Users/taka/.nvm/versions/node/v10.22.0/lib/node_modules/yarn/bin:/Users/taka/.rvm/bin:/Users/taka/.rvm/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, scandir '/.PKInstallSandboxManager-SystemSoftware'
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
