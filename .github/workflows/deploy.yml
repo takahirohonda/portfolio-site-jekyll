@@ -20,12 +20,12 @@ jobs:
     - name: Unit-Tests
       run: |
         cd code
-        npm run test-single-run
+        yarn test-single-run
         cd ..
     - name: Build-Assets
       run: |
         cd code
-        npm run deploy:prod
+        yarn deploy:prod
         cd ..
         pwd
     - name: Set-Base-Url
