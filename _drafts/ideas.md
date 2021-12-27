@@ -1,3 +1,7 @@
+# Conversation with Bano
+
+Confusion says 'don't make any sound if you cannot be better than silence.' Only women can agree. 
+
 # Corona delta max
 
 It all started with dead star fish washed on the beach. 
