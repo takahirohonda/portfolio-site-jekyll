@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Christian
+title: Christian
 category: short-story
 permalink: /creative-writing/short-story/christian
 ---
@@ -17,7 +17,7 @@ permalink: /creative-writing/short-story/christian
 'Ok, if we got a mate called Muhammad, can we call him Jesus, then?'
 <br /><br />
 
-'Nah, they wouldn't like it. The more close-minded the organisation is, the less it has a sense of humor.'
+'Nah, they wouldn't like it. The more close-minded the organisation is, the less it has a sense of humour.'
 <br /><br />
 
 'I think you are right. Let's call him Buddha, too, then.'

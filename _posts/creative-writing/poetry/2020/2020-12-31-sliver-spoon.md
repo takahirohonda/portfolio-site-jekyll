@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Silver Spoon
+title: Silver Spoon
 category: poetry
 permalink: /creative-writing/poetry/silver-spoon
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Toxic Relationship
+title: Toxic Relationship
 category: poetry
 permalink: /creative-writing/poetry/toxic-relationship
 ---

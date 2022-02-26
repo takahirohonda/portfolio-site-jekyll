@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Planet of a Leaf
+title: Planet of a Leaf
 category: poetry
 permalink: /creative-writing/poetry/planet-of-a-leaf
 ---

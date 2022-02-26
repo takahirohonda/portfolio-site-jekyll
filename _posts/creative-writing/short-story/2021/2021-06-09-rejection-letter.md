@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Rejection Letter
+title: Rejection Letter
 category: short-story
 permalink: /creative-writing/short-story/rejection-letter
 ---

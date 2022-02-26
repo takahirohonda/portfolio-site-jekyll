@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Manifesto
+title: Manifesto
 category: poetry
 permalink: /creative-writing/poetry/manifesto
 ---

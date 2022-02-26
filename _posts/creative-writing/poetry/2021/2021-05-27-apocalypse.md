@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Apocalypse
+title: Apocalypse
 category: poetry
 permalink: /creative-writing/poetry/apocalypse
 ---

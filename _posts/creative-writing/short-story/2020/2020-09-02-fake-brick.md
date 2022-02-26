@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Fake Brick
+title: Fake Brick
 category: short-story
 permalink: /creative-writing/short-story/fake-brick
 ---

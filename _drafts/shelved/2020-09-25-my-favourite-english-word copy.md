@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  My favourite English word
+title: My favourite English word
 category: essay
 permalink: /essay/my-fav-word
 ---

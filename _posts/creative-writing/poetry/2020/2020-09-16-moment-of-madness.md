@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Moment of Madness
+title: Moment of Madness
 category: poetry
 permalink: /creative-writing/poetry/moment-of-madness
 ---
@@ -13,7 +13,7 @@ No consequence -- No future --
 
 I'll embrace you with my arms wide open
 
-with clarity -- purpose -- demon -- angel 
+with clarity -- purpose -- demon -- angel
 
 of a martyr
 

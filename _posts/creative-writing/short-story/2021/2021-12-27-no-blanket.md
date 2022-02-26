@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  No Blanket
+title: No Blanket
 category: short-story
 permalink: /creative-writing/short-story/no-blanket
 ---

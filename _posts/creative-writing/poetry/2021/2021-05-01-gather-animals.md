@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Gather Animals
+title: Gather Animals
 category: poetry
 permalink: /creative-writing/poetry/gather-animals
 ---

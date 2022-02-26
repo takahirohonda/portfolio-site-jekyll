@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  House Party
+title: House Party
 category: poetry
 permalink: /creative-writing/poetry/house-party
 ---
