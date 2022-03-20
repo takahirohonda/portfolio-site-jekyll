@@ -18,6 +18,6 @@ I am happy again. Harray to the pandemic.
 
 Corona vaccine injects micro bots which tracks people. If you go outside of 5k radius during lockdown, it will explodes your head.
 
-#
+# Privileged self-righteous asshole
 
-I reckon it's acceptable you're rich and an asshole at the same time. They almost come hand in hand, right? The one can be an asshole and the only consolation for him is that he's got money. You know what the most tragic thing about me is? I'm an asshole, but poor.
+You're the privileged self-righteous asshole who confuses being smart with being lucky. You are the product of the capitalism lottery. You happened to be born in a very privileged position.
