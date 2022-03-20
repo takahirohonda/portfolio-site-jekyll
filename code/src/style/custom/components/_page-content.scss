@@ -1,9 +1,9 @@
 .path-container {
-  background-image: linear-gradient(-135deg, #FFF886 10%, #F072B6 100%);
+  background-image: linear-gradient(-135deg, #fff886 10%, #f072b6 100%);
 }
 
 .page-path {
-  font-size: 14px;
+  font-size: 1rem;
   padding: 20px 0px;
   margin: 0px;
 
@@ -13,25 +13,22 @@
   }
 }
 
-
 .page-content-container {
   min-height: 100vh;
   height: 100%;
-  background: #2D3436;
+  background: #2d3436;
 }
 
-
 .nav-dark-bg {
-  background: #2D3436;
+  background: #2d3436;
   height: 60px;
   width: 100%;
 }
 
-
 .page-list-title {
   font-size: 1.5rem;
   font-weight: 800;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 }
 
 .page-item-title {
@@ -47,9 +44,9 @@
 .page-item-list {
   list-style: none;
   list-style-position: inside;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 
-  &>li {
+  & > li {
     margin: 20px 15px;
   }
 }
@@ -65,25 +62,28 @@
   font-size: 1.5rem;
   font-weight: 800;
   margin-bottom: 30px;
-  font-family: 'gibson-regular''Lato''sans-serif';
+  font-family: "gibson-regular" "Lato" "sans-serif";
 }
 
 @mixin content-p {
   margin-bottom: 5px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
   line-height: 1.3;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
 }
 
 .post-content {
-  &>p {
+  & > p {
     @include content-p();
   }
 }
 
 .post-date-container {
   margin: 5px 0 30px 0;
-  &>p {
+  & > p {
     @include content-p();
   }
 }

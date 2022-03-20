@@ -4,51 +4,53 @@
   box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
 
 @font-face {
-  font-family: 'gibson-regular';
-  src: url('../font/Gibson.ttf') format('truetype');
+  font-family: "gibson-regular";
+  src: url("../font/Gibson.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Lato';
-  src: url('../font/Lato-Regular.ttf') format('truetype');
+  font-family: "Lato";
+  src: url("../font/Lato-Regular.ttf") format("truetype");
 }
 
 /* font-family: 'Fira Sans', sans-serif; */
 @font-face {
-  font-family: 'Fira Sans';
-  src: url('../font/FiraSans-Regular.ttf') format('truetype');
+  font-family: "Fira Sans";
+  src: url("../font/FiraSans-Regular.ttf") format("truetype");
 }
 
 /* font-family: 'Indie Flower', cursive; */
 @font-face {
-  font-family: 'Indie Flower';
-  src: url('../font/IndieFlower-Regular.ttf') format('truetype');
+  font-family: "Indie Flower";
+  src: url("../font/IndieFlower-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Pacifico';
-  src: url('../font/Pacifico-Regular.ttf') format('truetype');
+  font-family: "Pacifico";
+  src: url("../font/Pacifico-Regular.ttf") format("truetype");
 }
 
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   color: white;
 }
 
 h1 {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight:300;
-  letter-spacing: 2px;
-  font-size:48px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-size: 3rem; // 48px
 }
 
+// This is overriden by _page-content.scss for the content
 p {
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 1px;
-  font-size:14px;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem; // 16px
+  @media only screen and (max-width: 768px) {
+    font-size: 0.875rem; // 14px
+  }
 }
 
 ul {
@@ -57,9 +59,11 @@ ul {
 
 a {
   text-decoration: none;
-  color:white;
+  color: white;
   cursor: pointer;
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     color: white;
   }
 }
@@ -67,24 +71,28 @@ a {
 /* break point reference for bootstrap */
 
 /* This is custom extreme small screen */
-@media only screen and (min-width: 370px) { }
+@media only screen and (min-width: 370px) {
+}
 
 /* Small devices (landscape phones, 576px and up) */
-@media only screen and (min-width: 576px) { }
+@media only screen and (min-width: 576px) {
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) {  }
+@media only screen and (min-width: 768px) {
+}
 
 /* Large devices (desktops, 992px and up) */
-@media only screen and (min-width: 992px) {  }
+@media only screen and (min-width: 992px) {
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) { }
+@media only screen and (min-width: 1200px) {
+}
 
-/* override container width */ 
+/* override container width */
 
-@media only screen and (max-width: 992px) { 
-
+@media only screen and (max-width: 992px) {
   .header-container {
     max-width: 100%;
     padding-right: 15px;
@@ -92,4 +100,4 @@ a {
     margin-right: auto;
     margin-left: auto;
   }
- }
+}
