@@ -8,6 +8,7 @@
 of, relating to, or forming a ring
 
 **Usage**
-- What happens on June 10, 20121 will be an nnular solar eclipse
+
+- What happens on June 10, 20121 will be an annular solar eclipse
 - an annular skin lesion
 </details>
