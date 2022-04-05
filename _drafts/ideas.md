@@ -21,3 +21,7 @@ Corona vaccine injects micro bots which tracks people. If you go outside of 5k r
 # Privileged self-righteous asshole
 
 You're the privileged self-righteous asshole who confuses being smart with being lucky. You are the product of the capitalism lottery. You happened to be born in a very privileged position.
+
+# Fingers
+
+Quang told us that the reason why we use the word dozen for a collection of 12 things was that we used to have twelve fingers. We lost them somehow along the way.
