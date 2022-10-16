@@ -7,20 +7,20 @@ permalink: /creative-writing/poetry/body-of-water
 
 As I descended, I saw a body of water below.
 
-There was a log floating on the water.
+A log was floating on the water.
 
-It was burned black on one end and the other end was cut clean.
+One end was burned black and the other was cut clean.
 
-I grabbed it on the clean end,
+I grabbed the clean end,
 
-And carefully traced the concentric rings one by one with my finger.
+and carefully traced the concentric rings one by one with my finger.
 <br /><br />
 
-A dirty yellowish brown cloth was floating on the water.
+A piece of dirty yellowish brown cloth was floating on the water.
 
 I swam towards the artefact to inspect it,
 
-It was the dead body of a soldier.
+It was a dead body of a soldier.
 
 My feet touched the sandy bottom and I thought to myself,
 

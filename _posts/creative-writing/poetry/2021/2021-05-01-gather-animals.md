@@ -17,6 +17,6 @@ Better be ready.
 
 Spring is almost here.
 
-You must be planning to visit me very soon?
+On the way to my place,
 
 Please gather pairs of various animals that you come across.

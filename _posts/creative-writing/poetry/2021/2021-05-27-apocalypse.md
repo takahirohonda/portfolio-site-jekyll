@@ -44,10 +44,10 @@ Whisper into a paper cup,
 
 Connected to the other paper cup,
 
-By Her umbilical cord --
+By an umbilical cord --
 <br /><br />
 
-We blamed Her,
+We blamed her,
 
 But, it was all His fault --
 <br /><br />
