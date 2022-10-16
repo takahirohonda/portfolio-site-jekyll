@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Woman Prison in Japan
+title: Aged Carer
 category: short-story
-permalink: /creative-writing/short-story/woman-prison-in-japan
+permalink: /creative-writing/short-story/aged-carer
 ---
 
 When I was living in Japan, my job required me to visit women's prisons. I worked as a salesman for a company that sells correspondence vocational education packages.
