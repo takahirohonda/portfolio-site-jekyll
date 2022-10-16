@@ -70,7 +70,7 @@ She sounded as if she had said that to herself. Her eyes were closed and her voi
 
 I almost said that.
 
-But, I instead made a gurgling noise, which resembled indifferent, 'Yeah'. The seamless blue sky above us was as clear as her eyes. I wanted to say something clever or funny. Nothing came out. All I could do was just watch her dumbly and pretend that I was relaxed and at ease with myself and the situation. I threw my half-smoked cigarette on to the ground and stepped on it, making sure it wasn't burning anymore. The butt looked crooked and miserable.
+But, I instead made a gurgling noise, which resembled indifferent, 'Yeah'. The seamless blue sky above us was as clear as her eyes. I wanted to say something clever or funny. Nothing came out. All I could do was just watch her dumbly and pretend that I was relaxed and at ease with myself and the situation. I threw my half-smoked cigarette on to the ground and stepped on it, making sure it wasn't burning any more. The butt looked crooked and miserable.
 
 'Would you like to have some tea now? We are out of milk at the moment, so I think green tea is the best bet.'
 
@@ -126,7 +126,7 @@ She sounded calm. She always kept her cool. I tried to act cool, too. I tried to
 Before I could think of anything to say, she hugged me briefly and we bid a dry farewell to each other. I stood and watched her disappear in the autumn sunlight.
 <br /><br />
 
-I was back in my living room. It was warm and quiet. Bathing in the warm silence, I stared at two teacups on the table. Annabelle’s on the left and mine on the right. Neither of us had taken a sip. No steam rising anymore. The ray of light was gone, too. The Milky Way, gone. My microcosm, imploded. The whole afternoon seemed like a dream. I wasn’t even sure if she had been here. She left no trace except the untouched cup of green tea. I told myself that I’d see Annabelle again in the future. There would always be something to remind us of the irrevocable passage of time between Annabelle and I, like the soiled leaves in my neglected backyard.
+I was back in my living room. It was warm and quiet. Bathing in the warm silence, I stared at two teacups on the table. Annabelle’s on the left and mine on the right. Neither of us had taken a sip. No steam rising any more. The ray of light was gone, too. The Milky Way, gone. My microcosm, imploded. The whole afternoon seemed like a dream. I wasn’t even sure if she had been here. She left no trace except the untouched cup of green tea. I told myself that I’d see Annabelle again in the future. There would always be something to remind us of the irrevocable passage of time between Annabelle and I, like the soiled leaves in my neglected backyard.
 <br /><br />
 
 The clock on the wall read half past two.
