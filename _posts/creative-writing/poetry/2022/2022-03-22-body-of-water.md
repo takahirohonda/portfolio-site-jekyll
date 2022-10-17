@@ -20,7 +20,7 @@ A piece of dirty yellowish brown cloth was floating on the water.
 
 I swam towards the artefact to inspect it,
 
-It was a dead body of a soldier.
+It was a dead body of me.
 
 My feet touched the sandy bottom and I thought to myself,
 
@@ -33,7 +33,7 @@ Charcoaled wood pieces, campfire remains,
 
 I walked towards the sand dunes with tiny crabs,
 
-Towards the saltbush shrub before sea level rise and storm surge.
+Towards the saltbush shrubs before sea level rise and storm surge.
 
 In the twilight of the empire, I saw two red moons in the sky.
 <br /><br />
