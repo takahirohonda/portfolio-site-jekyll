@@ -1,6 +1,5 @@
 import { DomHelper } from './utilities/DomHelper';
 
-
 export class Navigation {
 
   toggleNavBarActive = (addActive: boolean) => {
@@ -34,8 +33,8 @@ export class Navigation {
     });
   }
 
-  // Initialising navburger change
-  initNavBurgerClickEventListner = () => {
+  // Initialising nav-burger change
+  initNavBurgerClickEventListener = () => {
     const navBurgerContainer = document.body.querySelector('.nav-burger-container') as HTMLElement;
     const bgDark = document.body.querySelector('.bg-dark') as HTMLElement;
     const navContainer = document.body.querySelector('.nav-container') as HTMLElement;
