@@ -5,7 +5,7 @@ category: short-story
 permalink: /creative-writing/short-story/gentle-sunlight
 ---
 
-It was a warm autumn afternoon. I was reading yesterday's newspaper in my living room. I wasn't paying attention to what the article was about. The strange mixture of nerves and excitement was taking over my mind like a tiny flying insect stuck in my ear. Nothing would have made the buzzing disappear, let alone mundane reports on daily events in the newspaper. Her late arrival was preempted by the text message she had sent me an hour ago. 'I'm on my way now. Sorry, it seems the last ten months haven't taught me punctuality.'
+It was a warm autumn afternoon. I was reading yesterday's newspaper in my living room. I wasn't paying attention to what the article was about. The strange mixture of nerves and excitement was taking over my mind like a tiny flying insect stuck in my ear. Nothing would have made the buzzing disappear, let alone mundane reports on daily events in the newspaper. Her late arrival was pre-empted by the text message she had sent me an hour ago. 'I'm on my way now. Sorry, it seems the last ten months haven't taught me punctuality.'
 <br /><br />
 
 As my eyes glazing over the same article again and again without registering its contents, I heard the shy knocking echo in the dim and narrow hallway. I quickly got off the couch and ran down to the front door. Swift, but quiet. I tried to conceal my eagerness. When I reached the door, I took a few deep breaths to make myself appear relaxed. My senses were sharpened. I could tell she was nervous from the way she knocked on the door.
