@@ -15,8 +15,11 @@ jobs:
       uses: actions/checkout@v2
       with:
         persist-credentials: false
-
-    - name: Checkin node version for troubleshooting
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Checking node version for troubleshooting
       run: |
         echo "Checking node version"
         node --version
