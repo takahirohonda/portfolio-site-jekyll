@@ -15,17 +15,17 @@ jobs:
     - name: Install
       run: |
         cd code
-        yarn i
+        yarn install
         cd ..
     - name: Unit-Tests
       run: |
         cd code
-        yarn run test-single-run
+        yarn test-single-run
         cd ..
     - name: Build-Assets
       run: |
         cd code
-        yarn run deploy:prod
+        yarn deploy:prod
         cd ..
         pwd
     - name: Set-Base-Url
