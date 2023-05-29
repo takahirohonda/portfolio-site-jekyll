@@ -15,17 +15,17 @@ jobs:
     - name: Install
       run: |
         cd code
-        npm i
+        yarn i
         cd ..
     - name: Unit-Tests
       run: |
         cd code
-        npm run test-single-run
+        yarn run test-single-run
         cd ..
     - name: Build-Assets
       run: |
         cd code
-        npm run deploy:prod
+        yarn run deploy:prod
         cd ..
         pwd
     - name: Set-Base-Url
