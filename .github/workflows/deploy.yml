@@ -16,6 +16,10 @@ jobs:
       with:
         persist-credentials: false
 
+    - name: Checkin node version for troubleshooting
+      run: |
+        echo "Checking node version"
+        node --version
     - name: Install
       run: |
         cd code
