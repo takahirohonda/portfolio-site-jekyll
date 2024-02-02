@@ -1,5 +1,5 @@
 name: Deploy to GitHub Page
-on: 
+on:
   push:
     branches:
       - master
@@ -9,54 +9,54 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [16.x]
+        node-version: [20.x]
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        persist-credentials: false
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Checking node version for troubleshooting
-      run: |
-        echo "Checking node version"
-        node --version
-    - name: Install
-      run: |
-        cd code
-        yarn install
-        cd ..
-    - name: Unit-Tests
-      run: |
-        cd code
-        yarn test-single-run
-        cd ..
-    - name: Build-Assets
-      run: |
-        cd code
-        yarn deploy:prod
-        cd ..
-        pwd
-    - name: Set-Base-Url
-      run: |
-        cd deploy-scripts
-        node add-base-url.js
-        cd ..
-        pwd
-    - name: Build-Jekyll
-      run: |
-        sudo apt-get install ruby-full
-        sudo gem install bundler -v 2.3.26
-        sudo bundle install
-        bundle exec jekyll build 
-    - name: Deploy_To_GithubPage
-      uses: JamesIves/github-pages-deploy-action@3.7.1
-      with:
-        ACCESS_TOKEN: ${{ secrets.GIT_PAGE_DEPLOY }}
-        BRANCH: master # The branch the action should deploy to.
-        FOLDER: _site # The folder the action should deploy.
-        REPOSITORY_NAME: mydatahack/mydatahack.github.io
-        TARGET_FOLDER: portfolio
-        CLEAN: true # Automatically remove deleted files from the deploy branch
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Checking node version for troubleshooting
+        run: |
+          echo "Checking node version"
+          node --version
+      - name: Install
+        run: |
+          cd code
+          yarn install
+          cd ..
+      - name: Unit-Tests
+        run: |
+          cd code
+          yarn test-single-run
+          cd ..
+      - name: Build-Assets
+        run: |
+          cd code
+          yarn deploy:prod
+          cd ..
+          pwd
+      - name: Set-Base-Url
+        run: |
+          cd deploy-scripts
+          node add-base-url.js
+          cd ..
+          pwd
+      - name: Build-Jekyll
+        run: |
+          sudo apt-get install ruby-full
+          sudo gem install bundler -v 2.3.26
+          sudo bundle install
+          bundle exec jekyll build
+      - name: Deploy_To_GithubPage
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          ACCESS_TOKEN: ${{ secrets.GIT_PAGE_DEPLOY }}
+          BRANCH: master # The branch the action should deploy to.
+          FOLDER: _site # The folder the action should deploy.
+          REPOSITORY_NAME: mydatahack/mydatahack.github.io
+          TARGET_FOLDER: portfolio
+          CLEAN: true # Automatically remove deleted files from the deploy branch
