@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start karma.conf.js",
-    "test-single-run": "karma start --single-run",
+    "test": "export NODE_OPTIONS=--openssl-legacy-provider && karma start karma.conf.js",
+    "test-single-run": "export NODE_OPTIONS=--openssl-legacy-provider && karma start --single-run",
     "test:debugger": "karma start --browsers ChromeDebugging",
     "build:prod": "gulp buildProd",
     "deploy:prod": "gulp deploy",
