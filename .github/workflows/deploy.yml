@@ -29,11 +29,12 @@ jobs:
           yarn install
           cd ..
       # Karma stopped working when upgraded to node 20...
-      # - name: Unit-Tests
-      #   run: |
-      #     cd code
-      #     yarn test-single-run
-      #     cd ..
+      # So added export NODE_OPTIONS=--openssl-legacy-provider to the test script
+      - name: Unit-Tests
+        run: |
+          cd code
+          yarn test-single-run
+          cd ..
       - name: Build-Assets
         run: |
           cd code
