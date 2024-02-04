@@ -1,4 +1,4 @@
-name: Deploy to GitHub Page
+name: Feature branch CI/CD
 on:
   push:
     branches:
