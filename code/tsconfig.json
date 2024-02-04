@@ -10,11 +10,10 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "strictPropertyInitialization": false,
-    "suppressImplicitAnyIndexErrors": true,
     "lib": ["es2015", "dom"],
     "jsx": "react",
     "jsxFactory": "h"
   },
   "include": ["src", "test"],
-  "exclude" : []
+  "exclude": []
 }
