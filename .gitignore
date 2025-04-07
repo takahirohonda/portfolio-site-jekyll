@@ -11,3 +11,6 @@ assets/js/*.html
 # Gemfile.lock is giving trouble to deploy...
 
 Gemfile.lock
+
+ZscalerRootCA.cer
+ZscalerRootCA.pem
